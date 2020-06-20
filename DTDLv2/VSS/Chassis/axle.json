@@ -1,0 +1,49 @@
+{
+    "@id": "dtmi:com:vehicle:ChassisAxle;1",
+    "@type": "Interface",
+    "comment": "Axle definition",
+    "displayName": "Axle",
+    "contents": [
+    {
+        "@type": "Relationship",
+        "name": "Tire",
+        "target": "dtmi:com:vehicle:ChassisAxleTire;1"
+    },
+    {
+        "@type": ["Property", "Row"],
+        "name": "Row",
+        "description": "Row 1 is front, row 2 rear",
+        "comment": "row number",
+        "schema": "integer"
+    },    
+    {
+        "@type": ["Property", "WheelCount"],
+        "name": "WheelCount",
+        "description": "Number of wheels on the axle",
+        "comment": "count of wheels",
+        "schema": "integer"
+    },
+    {
+        "@type": ["Property", "WheelDiameter"],
+        "name": "WheelDiameter",
+        "description": "Diameter of wheels (without tires), in inches, as per ETRO / TRA standard",
+        "comment": "unit in inches",
+        "schema": "integer"
+    },
+    {
+        "@type": ["Property", "TireDiameter"],
+        "name": "TireDiameter",
+        "description": "Diameter of tires, in inches, as per ETRO / TRA standard",
+        "comment": "unit in inches",
+        "schema": "integer"
+    },
+    {
+        "@type": ["Property", "TireWidth"],
+        "name": "TireWidth",
+        "description": "Width of tires, in inches, as per ETRO / TRA standard",
+        "comment": "unit in inches",
+        "schema": "integer"
+    }
+    ],
+    "@context": "dtmi:dtdl:context;2"
+  }

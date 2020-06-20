@@ -5,6 +5,11 @@
     "displayName": "Chassis",
     "contents": [
     {
+        "@type": "Relationship",
+        "name": "Axle",
+        "target": "dtmi:com:vehicle:ChassisAxle;1"
+    },
+    {
         "@type": ["Property", "CurbWeight"],
         "name": "CurbWeight",
         "description": "Vehicle curb weight, including all liquids and full tank of fuel, but no cargo or passengers",
@@ -57,6 +62,13 @@
         "@type": ["Property", "Track"],
         "name": "Track",
         "description": "Overall tracking",
+        "comment": "unit in mm",
+        "schema": "integer"
+    },
+    {
+        "@type": ["Property", "Axles"],
+        "name": "Axles",
+        "description": "Number of axles on the vehicle",
         "comment": "unit in mm",
         "schema": "integer"
     }
