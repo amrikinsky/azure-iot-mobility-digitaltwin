@@ -1,0 +1,30 @@
+{
+    "@id": "dtmi:com:vehicle:VehicleSpatialRotationTelemetry;1",
+    "@type": "Interface",
+    "comment": "Vehicle spacial rotation telemetry",
+    "displayName": "Vehicle Rotation Telemetry",
+    "contents": [
+        {
+            "@type": "Telemetry",
+            "name": "RotationRoll",
+            "description": "Vehicle rotation rate along X (longitudinal)",
+            "comment": "unit in degrees/s",
+            "schema": "integer"
+        },
+        {
+            "@type": "Telemetry",
+            "name": "RotationPitch",
+            "description": "Vehicle Rotation in Y (Pitch Rotation)",
+            "comment": "unit in degrees/s",
+            "schema": "integer" 
+        },
+        {
+            "@type": "Telemetry",
+            "name": "RotationYaw",
+            "description": "Vehicle Rotation in Z (Yaw Rotation)",
+            "comment": "unit in degrees/s",
+            "schema": "long"
+        }
+    ],
+    "@context": "dtmi:dtdl:context;2"
+}

@@ -1,0 +1,30 @@
+{
+    "@id": "dtmi:com:vehicle:VehicleSpatialAccelerationTelemetry;1",
+    "@type": "Interface",
+    "comment": "Vehicle spacial acceleration telemetry",
+    "displayName": "Vehicle acceleration Telemetry",
+    "contents": [
+        {
+            "@type": "Telemetry",
+            "name": "AccelerationLongitudinal",
+            "description": "Vehicle acceleration in X (longitudinal acceleration)",
+            "comment": "unit in m/s2",
+            "schema": "integer"
+        },
+        {
+            "@type": "Telemetry",
+            "name": "AccelerationLateral",
+            "description": "Vehicle acceleration in Y (lateral acceleration)",
+            "comment": "unit in m/s2",
+            "schema": "integer" 
+        },
+        {
+            "@type": "Telemetry",
+            "name": "AccelerationVertical",
+            "description": "Vehicle acceleration in Z (vertical acceleration)",
+            "comment": "unit in seconds",
+            "schema": "long"
+        }
+    ],
+    "@context": "dtmi:dtdl:context;2"
+}

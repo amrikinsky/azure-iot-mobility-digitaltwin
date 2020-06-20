@@ -1,0 +1,65 @@
+{
+    "@id": "dtmi:com:vehicle:Chassis;1",
+    "@type": "Interface",
+    "comment": "Attributes that identify a vehicle",
+    "displayName": "Chassis",
+    "contents": [
+    {
+        "@type": ["Property", "CurbWeight"],
+        "name": "CurbWeight",
+        "description": "Vehicle curb weight, including all liquids and full tank of fuel, but no cargo or passengers",
+        "comment": "unit in kg",
+        "schema": "integer"
+    },
+    {
+        "@type": ["Property", "GrossWeight"],
+        "name": "GrossWeight",
+        "description": "Curb weight of vehicle, including all liquids and full tank of fuel and full load of cargo and passengers",
+        "comment": "unit in kg",
+        "schema": "integer"
+    },
+    {
+        "@type": ["Property", "TowWeight"],
+        "name": "TowWeight",
+        "description": "Maximum weight of trailer",
+        "comment": "unit in kg",
+        "schema": "integer"
+    },
+    {
+        "@type": "Property",
+        "name": "Length",
+        "description": "Overall vehicle length",
+        "comment": "unit in mm",
+        "schema": "integer"
+    },
+    {
+        "@type": ["Property", "Height"],
+        "name": "Height",
+        "description": "Overall vehicle height",
+        "comment": "unit in mm",
+        "schema": "integer"
+    },
+    {
+        "@type": ["Property", "Width"],
+        "name": "Width",
+        "description": "Overall vehicle width",
+        "comment": "unit in mm",
+        "schema": "integer"
+    },
+    {
+        "@type": ["Property", "Wheelbase"],
+        "name": "Wheelbase",
+        "description": "Overall wheelbase",
+        "comment": "unit in mm",
+        "schema": "integer"
+    },
+    {
+        "@type": ["Property", "Track"],
+        "name": "Track",
+        "description": "Overall tracking",
+        "comment": "unit in mm",
+        "schema": "integer"
+    }
+    ],
+    "@context": "dtmi:dtdl:context;2"
+  }
