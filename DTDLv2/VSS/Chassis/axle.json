@@ -7,7 +7,7 @@
     {
         "@type": "Relationship",
         "name": "Tire",
-        "target": "dtmi:com:vehicle:ChassisAxleTire;1"
+        "target": "dtmi:com:vehicle:ChassisAxleWheel;1"
     },
     {
         "@type": ["Property", "Row"],
