@@ -21,6 +21,11 @@
     },
     {
         "@type": "Relationship",
+        "name": "Steering",
+        "target": "dtmi:com:vehicle:ChassisSteeringTelemetry;1"
+    },
+    {
+        "@type": "Relationship",
         "name": "Trailer",
         "target": "dtmi:com:vehicle:ChassisTrailerTelemetry;1"
     },
