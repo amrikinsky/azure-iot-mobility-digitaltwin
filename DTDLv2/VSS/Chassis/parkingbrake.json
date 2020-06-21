@@ -1,0 +1,15 @@
+{
+    "@id": "dtmi:com:vehicle:ChassisAxleWheelParkingBrakeTelemetry;1",
+    "@type": "Interface",
+    "comment": "Parking Brake Telemetry",
+    "displayName": "ParkingBrakeTelemetry",
+    "contents": [
+    {
+        "@type": ["Telemetry", "IsEngaged"],
+        "name": "IsEngaged",
+        "description": "Parking brake status. True = Parking Brake is Engaged. False = Parking Brake is not Engaged.",
+        "schema": "boolean"
+    }
+    ],
+    "@context": "dtmi:dtdl:context;2"
+  }

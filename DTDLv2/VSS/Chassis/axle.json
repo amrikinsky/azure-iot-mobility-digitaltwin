@@ -6,8 +6,13 @@
     "contents": [
     {
         "@type": "Relationship",
-        "name": "Tire",
+        "name": "Wheel",
         "target": "dtmi:com:vehicle:ChassisAxleWheel;1"
+    },
+    {
+        "@type": "Relationship",
+        "name": "ParkingBrake",
+        "target": "dtmi:com:vehicle:ChassisAxleWheelParkingBrakeTelemetry;1"
     },
     {
         "@type": ["Property", "Row"],

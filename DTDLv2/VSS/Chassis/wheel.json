@@ -7,54 +7,54 @@
     {
         "@type": ["Property", "Row"],
         "name": "Row",
-        "description": "Row 1 is left front, 2 left rear, 3 right front, 4 right rear.",
+        "description": "Row 1 is left, 2 is right.",
         "comment": "row number",
         "schema": "integer"
     },  
     {
-        "@type": ["Property", "TirePressure"],
+        "@type": ["Telemetry", "TirePressure"],
         "name": "TirePressure",
         "description": "Tire pressure in kilo-Pascal",
         "comment": "unit in kpa",
         "schema": "integer"
     },
     {
-        "@type": ["Property", "TirePressureLow"],
+        "@type": ["Telemetry", "TirePressureLow"],
         "name": "TirePressureLow",
         "description": "Tire Pressure Status. True = Low tire pressure. False = Good tire pressure.",
         "comment": "unit as boolean",
         "schema": "boolean"
     },
     {
-        "@type": ["Property", "TireTemperature"],
+        "@type": ["Telemetry", "TireTemperature"],
         "name": "TireTireDiameter",
         "description": "Tire temperature in Celsius",
         "comment": "unit in celsius",
         "schema": "float"
     },
     {
-        "@type": ["Property", "BreakFluidLevel"],
+        "@type": ["Telemetry", "BreakFluidLevel"],
         "name": "BreakFluidLevel",
         "description": "Brake fluid level as percent. 0 = Empty. 100 = Full.",
         "comment": "unit in percent",
         "schema": "integer"
     },
     {
-        "@type": ["Property", "BreakFluidLevelLow"],
+        "@type": ["Telemetry", "BreakFluidLevelLow"],
         "name": "BreakFluidLevelLow",
         "description": "Brake fluid level status. True = Brake fluid level low. False = Brake fluid level OK.",
         "comment": "unit as boolean",
         "schema": "boolean"
     },
     {
-        "@type": ["Property", "BreakPadWear"],
+        "@type": ["Telemetry", "BreakPadWear"],
         "name": "BreakPadWear",
         "description": "Brake pad wear as percent. 0 = No Wear. 100 = Worn.",
         "comment": "unit in percent",
         "schema": "integer"
     },
     {
-        "@type": ["Property", "BreakBrakesWorn"],
+        "@type": ["Telemetry", "BreakBrakesWorn"],
         "name": "BreakBrakesWorn",
         "description": "Brake pad wear status. True = Worn. False = Not Worn.",
         "comment": "unit as boolean",

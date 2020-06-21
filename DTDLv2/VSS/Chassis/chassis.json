@@ -10,6 +10,21 @@
         "target": "dtmi:com:vehicle:ChassisAxle;1"
     },
     {
+        "@type": "Relationship",
+        "name": "Accelerator",
+        "target": "dtmi:com:vehicle:ChassisAcceleratorTelemetry;1"
+    },
+    {
+        "@type": "Relationship",
+        "name": "Brake",
+        "target": "dtmi:com:vehicle:ChassisBrakeTelemetry;1"
+    },
+    {
+        "@type": "Relationship",
+        "name": "Trailer",
+        "target": "dtmi:com:vehicle:ChassisTrailerTelemetry;1"
+    },
+    {
         "@type": ["Property", "CurbWeight"],
         "name": "CurbWeight",
         "description": "Vehicle curb weight, including all liquids and full tank of fuel, but no cargo or passengers",

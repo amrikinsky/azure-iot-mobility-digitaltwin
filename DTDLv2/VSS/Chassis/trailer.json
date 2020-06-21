@@ -1,0 +1,16 @@
+{
+    "@id": "dtmi:com:vehicle:ChassisTrailerTelemetry;1",
+    "@type": "Interface",
+    "comment": "Trailer Signals",
+    "displayName": "TrailerTelemetry",
+    "contents": [
+    {
+        "@type": ["Telemetry", "Connected"],
+        "name": "Connected",
+        "description": "Signal indicating if trailer is connected or not.",
+        "comment": "True = connected, False = not connected",
+        "schema": "boolean"
+    }
+    ],
+    "@context": "dtmi:dtdl:context;2"
+}
