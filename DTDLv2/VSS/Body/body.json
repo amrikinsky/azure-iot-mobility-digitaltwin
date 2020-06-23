@@ -35,6 +35,16 @@
         "target": "dtmi:com:vehicle:Body_Windshield;1"
     },
     {
+        "@type": "Relationship",
+        "name": "Light",
+        "target": "dtmi:com:vehicle:Body_Light;1"
+    },
+    {
+        "@type": "Relationship",
+        "name": "Mirror",
+        "target": "dtmi:com:vehicle:Body_Mirror;1"
+    },
+    {
         "@type": ["Property", "BodyType"],
         "name": "BodyType",
         "description": "Body type code as defined by ISO 3779",

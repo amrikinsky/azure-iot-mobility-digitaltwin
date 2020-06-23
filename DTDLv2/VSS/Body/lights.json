@@ -1,0 +1,163 @@
+{
+    "@id": "dtmi:com:vehicle:Body_Light;1",
+    "@type": "Interface",
+    "comment": "All exterior lights",
+    "displayName": "Lights",
+    "contents": [
+    {
+        "@type": "Command",
+        "name": "HighBeam",
+        "description": "High beam lights on or off. True = On. False = Off.",
+        "comment": "actuator",
+        "request": {
+            "name": "IsHighBeamOn",
+            "schema": "boolean"
+        },
+        "response": {
+            "name": "IsHighBeamOn",
+            "schema": "boolean"
+        }
+    },
+    {
+        "@type": "Command",
+        "name": "LowBeam",
+        "description": "Low beam lights on or off. True = On. False = Off.",
+        "comment": "actuator",
+        "request": {
+            "name": "IsLowBeamOn",
+            "schema": "boolean"
+        },
+        "response": {
+            "name": "IsLowBeamOn",
+            "schema": "boolean"
+        }
+    },
+    {
+        "@type": "Command",
+        "name": "Running",
+        "description": "Running lights on or off. True = On. False = Off.",
+        "comment": "actuator",
+        "request": {
+            "name": "IsRunningOn",
+            "schema": "boolean"
+        },
+        "response": {
+            "name": "IsRunningOn",
+            "schema": "boolean"
+        }
+    },
+    {
+        "@type": "Command",
+        "name": "Backup",
+        "description": "Backup (reverse) lights on or off. True = On. False = Off.",
+        "comment": "actuator",
+        "request": {
+            "name": "IsBackupOn",
+            "schema": "boolean"
+        },
+        "response": {
+            "name": "IsBackupOn",
+            "schema": "boolean"
+        }
+    },
+    {
+        "@type": "Command",
+        "name": "Parking",
+        "description": "Parking lights on or off. True = On. False = Off.",
+        "comment": "actuator",
+        "request": {
+            "name": "IsParkingOn",
+            "schema": "boolean"
+        },
+        "response": {
+            "name": "IsParkingOn",
+            "schema": "boolean"
+        }
+    },
+    {
+        "@type": "Command",
+        "name": "Brake",
+        "description": "Brake lights on or off. True = On. False = Off.",
+        "comment": "actuator",
+        "request": {
+            "name": "IsBrakeOn",
+            "schema": "boolean"
+        },
+        "response": {
+            "name": "IsBrakeOn",
+            "schema": "boolean"
+        }
+    },
+    {
+        "@type": "Command",
+        "name": "RearFog",
+        "description": "Rear fog lights on or off. True = On. False = Off.",
+        "comment": "actuator",
+        "request": {
+            "name": "IsRearFogOn",
+            "schema": "boolean"
+        },
+        "response": {
+            "name": "IsRearFogOn",
+            "schema": "boolean"
+        }
+    },
+    {
+        "@type": "Command",
+        "name": "FrontFog",
+        "description": "Front fog lights on or off. True = On. False = Off.",
+        "comment": "actuator",
+        "request": {
+            "name": "IsFrontFogOn",
+            "schema": "boolean"
+        },
+        "response": {
+            "name": "IsFrontFogOn",
+            "schema": "boolean"
+        }
+    },
+    {
+        "@type": "Command",
+        "name": "Hazard",
+        "description": "Hazard lights on or off. True = On. False = Off.",
+        "comment": "actuator",
+        "request": {
+            "name": "IsHazardOn",
+            "schema": "boolean"
+        },
+        "response": {
+            "name": "IsHazardOn",
+            "schema": "boolean"
+        }
+    },
+    {
+        "@type": "Command",
+        "name": "LeftIndicator",
+        "description": "Left indicator lights on or off. True = On. False = Off.",
+        "comment": "actuator",
+        "request": {
+            "name": "IsLeftIndicatorOn",
+            "schema": "boolean"
+        },
+        "response": {
+            "name": "IsLeftIndicatorOn",
+            "schema": "boolean"
+        }
+    },
+    {
+        "@type": "Command",
+        "name": "RightIndicator",
+        "description": "Right indicator lights on or off. True = On. False = Off.",
+        "comment": "actuator",
+        "request": {
+            "name": "IsRightIndicatorOn",
+            "schema": "boolean"
+        },
+        "response": {
+            "name": "IsRightIndicatorOn",
+            "schema": "boolean"
+        }
+    }
+    ],
+    "@context": "dtmi:dtdl:context;2"
+  }
