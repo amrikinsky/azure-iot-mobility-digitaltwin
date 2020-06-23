@@ -1,7 +1,7 @@
 {
-    "@id": "dtmi:com:vehicle:ChassisAxleWheelParkingBrakeTelemetry;1",
+    "@id": "dtmi:com:vehicle:Chassis_Axle_Wheel_ParkingBrake_Telemetry;1",
     "@type": "Interface",
-    "comment": "Parking Brake Telemetry",
+    "comment": "Parking Brake Signals",
     "displayName": "ParkingBrakeTelemetry",
     "contents": [
     {
@@ -12,4 +12,4 @@
     }
     ],
     "@context": "dtmi:dtdl:context;2"
-  }
+}

@@ -1,0 +1,51 @@
+{
+    "@id": "dtmi:com:vehicle:Body_Trunk;1",
+    "@type": "Interface",
+    "comment": "Attributes that identify the trunk of the vehicle's body",
+    "displayName": "Trunk",
+    "contents": [
+    {
+        "@type": "Command",
+        "name": "IsOpenCommand",
+        "description": "Trunk open or closed. True = Open. False = Closed",
+        "comment": "actuator",
+        "request": {
+            "name": "IsOpen",
+            "schema": "boolean"
+        },
+        "response": {
+            "name": "IsOpen",
+            "schema": "boolean"
+        }
+    },
+    {
+        "@type": "Command",
+        "name": "IsLockedCommand",
+        "description": "Is trunk locked or unlocked. True = Locked. False = Unlocked",
+        "comment": "actuator",
+        "request": {
+            "name": "IsOpen",
+            "schema": "boolean"
+        },
+        "response": {
+            "name": "IsOpen",
+            "schema": "boolean"
+        }
+    },
+    {
+        "@type": "Telemetry",
+        "name": "IsOpenTelemetry",
+        "description": "Trunk open or closed. True = Open. False = Closed",
+        "comment": "sensor",
+        "schema": "boolean"
+    },
+    {
+        "@type": "Telemetry",
+        "name": "IsLockedTelemetry",
+        "description": "Is trunk locked or unlocked. True = Locked. False = Unlocked",
+        "comment": "sensor",
+        "schema": "boolean"
+    }
+    ],
+    "@context": "dtmi:dtdl:context;2"
+  }

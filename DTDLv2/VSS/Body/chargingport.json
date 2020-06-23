@@ -1,0 +1,57 @@
+{
+    "@id": "dtmi:com:vehicle:Body_ChargingPort;1",
+    "@type": "Interface",
+    "comment": "Charging Port",
+    "displayName": "ChargingPort",
+    "contents": [
+    {
+        "@type": "Telemetry",
+        "name": "Type",
+        "description": "Indicates the primary charging type fitted to the vehicle",
+        "comment": "actuator, enumeration",
+        "schema": {
+            "@type": "Enum",
+            "valueSchema": "integer",
+            "enumValues": [
+                {
+                    "name": "unknown",
+                    "enumValue": 0
+                },
+                {
+                    "name": "Not_Fitted",
+                    "enumValue": 1
+                },
+                {
+                    "name": "AC_Type_1",
+                    "enumValue": 2
+                },
+                {
+                    "name": "AC_Type_2",
+                    "enumValue": 3
+                },
+                {
+                    "name": "AC_GBT",
+                    "enumValue": 4
+                },
+                {
+                    "name": "AC_DC_Type_1_Combo",
+                    "enumValue": 5
+                },
+                {
+                    "name": "AC_DC_Type_2_Combo",
+                    "enumValue": 6
+                },
+                {
+                    "name": "DC_GBT",
+                    "enumValue": 7
+                },
+                {
+                    "name": "DC_Chademo",
+                    "enumValue": 8
+                }
+            ]
+        }
+    }
+    ],
+    "@context": "dtmi:dtdl:context;2"
+     }

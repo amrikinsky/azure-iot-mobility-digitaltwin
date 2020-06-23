@@ -1,0 +1,23 @@
+{
+    "@id": "dtmi:com:vehicle:Body_Horn;1",
+    "@type": "Interface",
+    "comment": "Attributes that identify the horn of the vehicle's body",
+    "displayName": "Horn",
+    "contents": [
+    {
+        "@type": "Command",
+        "name": "IsActiveCommand",
+        "description": "Horn active or inactive. True = Active. False = Inactive.",
+        "comment": "actuator",
+        "request": {
+            "name": "IsActive",
+            "schema": "boolean"
+        },
+        "response": {
+            "name": "IsActive",
+            "schema": "boolean"
+        }
+    }
+    ],
+    "@context": "dtmi:dtdl:context;2"
+  }

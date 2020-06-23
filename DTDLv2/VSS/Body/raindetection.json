@@ -1,0 +1,16 @@
+{
+    "@id": "dtmi:com:vehicle:Body_Raindetection;1",
+    "@type": "Interface",
+    "comment": "Rainsensor signals",
+    "displayName": "Raindetection",
+    "contents": [
+    {
+        "@type": "Telemetry",
+        "name": "Intensity",
+        "description": "Rain intensity. 0 = Dry, No Rain. 100 = Covered.",
+        "comment": "sensor, unit in percent",
+        "schema": "integer"
+    }
+    ],
+    "@context": "dtmi:dtdl:context;2"
+}

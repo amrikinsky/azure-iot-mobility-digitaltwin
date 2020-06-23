@@ -1,0 +1,31 @@
+{
+    "@id": "dtmi:com:vehicle:Body_Windshield;1",
+    "@type": "Interface",
+    "comment": "Windshield signals",
+    "displayName": "Windshield",
+    "contents": [
+    {
+        "@type": "Relationship",
+        "name": "D2C_Wiper",
+        "target": "dtmi:com:vehicle:Wiper;1"
+    },
+    {
+        "@type": "Relationship",
+        "name": "D2C_Fluid",
+        "target": "dtmi:com:vehicle:Windshield_Fluid;1"
+    },
+    {
+        "@type": "Relationship",
+        "name": "C2D_D2C_Heating",
+        "target": "dtmi:com:vehicle:Windshield_Heating;1"
+    },
+    {
+        "@type": ["Property", "Row"],
+        "name": "Row",
+        "description": "Row 1 is front, row 2 rear",
+        "comment": "row number",
+        "schema": "integer"
+    }
+    ],
+    "@context": "dtmi:dtdl:context;2"
+}

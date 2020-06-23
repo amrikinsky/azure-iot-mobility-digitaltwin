@@ -1,5 +1,5 @@
 {
-    "@id": "dtmi:com:vehicle:ChassisTrailerTelemetry;1",
+    "@id": "dtmi:com:vehicle:Chassis_Trailer_Telemetry;1",
     "@type": "Interface",
     "comment": "Trailer Signals",
     "displayName": "TrailerTelemetry",

@@ -1,35 +1,41 @@
 {
-    "@id": "dtmi:com:vehicle:VehicleIdentification;1",
+    "@id": "dtmi:com:vehicle;1",
     "@type": "Interface",
     "comment": "Attributes that identify a vehicle",
     "displayName": "Vehicle",
     "contents": [
     {
         "@type": "Relationship",
-        "name": "VIDTelemetry",
+        "name": "D2C_Information",
         "maxMultiplicity": 1,
         "minMultiplicity": 0,
-        "target": "dtmi:com:vehicle:VehicleInformationTelemetry;1"
+        "target": "dtmi:com:vehicle:Information_Telemetry;1"
     },
     {
         "@type": "Relationship",
-        "name": "VAccelerationTelemetry",
+        "name": "D2C_SpatialAcceleration",
         "maxMultiplicity": 1,
         "minMultiplicity": 0,
-        "target": "dtmi:com:vehicle:VehicleSpatialAccelerationTelemetry;1"
+        "target": "dtmi:com:vehicle:SpatialAcceleration_Telemetry;1"
     },
     {
         "@type": "Relationship",
-        "name": "VRotationTelemetry",
+        "name": "D2C_SpatialRotation",
         "maxMultiplicity": 1,
         "minMultiplicity": 0,
-        "target": "dtmi:com:vehicle:VehicleSpatialRotationTelemetry;1"
+        "target": "dtmi:com:vehicle:SpatialRotation_Telemetry;1"
     },
     {
         "@type": "Relationship",
         "name": "Chassis",
         "maxMultiplicity": 1,
         "target": "dtmi:com:vehicle:Chassis;1"
+    },
+    {
+        "@type": "Relationship",
+        "name": "Body",
+        "maxMultiplicity": 1,
+        "target": "dtmi:com:vehicle:Body;1"
     },
     {
         "@type": "Property",
@@ -59,8 +65,7 @@
         "@type": ["Property", "Year"],
         "name": "Year",
         "description": "Model year of the vehicle",
-        "schema": "integer",
-        "writeable": true
+        "schema": "integer"
     }
     ],
     "@context": "dtmi:dtdl:context;2"

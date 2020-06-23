@@ -1,18 +1,18 @@
 {
-    "@id": "dtmi:com:vehicle:ChassisAxle;1",
+    "@id": "dtmi:com:vehicle:Chassis_Axle;1",
     "@type": "Interface",
     "comment": "Axle definition",
     "displayName": "Axle",
     "contents": [
     {
         "@type": "Relationship",
-        "name": "Wheel",
-        "target": "dtmi:com:vehicle:ChassisAxleWheel;1"
+        "name": "D2C_Wheel",
+        "target": "dtmi:com:vehicle:Chassis_Axle_Wheel;1"
     },
     {
         "@type": "Relationship",
-        "name": "ParkingBrake",
-        "target": "dtmi:com:vehicle:ChassisAxleWheelParkingBrakeTelemetry;1"
+        "name": "D2C_ParkingBrake",
+        "target": "dtmi:com:vehicle:Chassis_Axle_Wheel_ParkingBrake_Telemetry;1"
     },
     {
         "@type": ["Property", "Row"],

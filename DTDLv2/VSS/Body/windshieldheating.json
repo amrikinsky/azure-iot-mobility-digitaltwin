@@ -1,0 +1,30 @@
+{
+    "@id": "dtmi:com:vehicle:Windshield_Heating;1",
+    "@type": "Interface",
+    "comment": "Windshield heating signals",
+    "displayName": "Heating",
+    "contents": [
+    {
+        "@type": "Command",
+        "name": "Heater",
+        "description": "Windshield heater.",
+        "comment": "actuator, On = True, Off = False",
+        "request": {
+            "name": "Heater",
+            "schema": "boolean"
+        },
+        "response": {
+            "name": "Heater",
+            "schema": "boolean"
+        }
+    },
+    {
+        "@type": "Telemetry",
+        "name": "HeaterStatus",
+        "description": "Windshield heater status",
+        "comment": "sensor, On = True, Off = False",
+        "schema": "boolean"
+    }
+    ],
+    "@context": "dtmi:dtdl:context;2"
+  }

@@ -1,0 +1,81 @@
+{
+    "@id": "dtmi:com:vehicle:Body;1",
+    "@type": "Interface",
+    "comment": "Attributes that identify the body of a vehicle",
+    "displayName": "Body",
+    "contents": [
+    {
+        "@type": "Relationship",
+        "name": "C2D_D2C_Hood",
+        "target": "dtmi:com:vehicle:Body_Hood;1"
+    },
+    {
+        "@type": "Relationship",
+        "name": "C2D_D2C_Horn",
+        "target": "dtmi:com:vehicle:Body_Horn;1"
+    },
+    {
+        "@type": "Relationship",
+        "name": "C2D_D2C_Trunk",
+        "target": "dtmi:com:vehicle:Body_Trunk;1"
+    },
+    {
+        "@type": "Relationship",
+        "name": "C2D_ChargingPort",
+        "target": "dtmi:com:vehicle:Body_ChargingPort;1"
+    },
+    {
+        "@type": "Relationship",
+        "name": "C2D_Raindetection",
+        "target": "dtmi:com:vehicle:Body_Raindetection;1"
+    },
+    {
+        "@type": "Relationship",
+        "name": "Windshield",
+        "target": "dtmi:com:vehicle:Body_Windshield;1"
+    },
+    {
+        "@type": ["Property", "BodyType"],
+        "name": "BodyType",
+        "description": "Body type code as defined by ISO 3779",
+        "schema": "string" 
+    },
+    {
+        "@type": ["Property", "RefuelPosition"],
+        "name": "RefuelPosition",
+        "description": "Location of the fuel cap or charge port",
+        "comment": "unit in kg",
+        "schema": { 
+            "@type": "Enum",
+            "valueSchema": "integer",
+            "enumValues": [
+                {
+                    "name": "front_left",
+                    "enumValue": 1
+                },
+                {
+                    "name": "front_right",
+                    "enumValue": 2
+                },
+                {
+                    "name": "middle_left",
+                    "enumValue": 3
+                },
+                {
+                    "name": "middle_right",
+                    "enumValue": 4
+                },
+                {
+                    "name": "rear_left",
+                    "enumValue": 5
+                },
+                {
+                    "name": "rear_right",
+                    "enumValue": 6
+                }
+            ]
+        } 
+    }
+    ],
+    "@context": "dtmi:dtdl:context;2"
+  }

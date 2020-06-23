@@ -1,0 +1,45 @@
+{
+    "@id": "dtmi:com:vehicle:Wiper;1",
+    "@type": "Interface",
+    "comment": "Wiper status",
+    "displayName": "Wiper",
+    "contents": [
+    {
+        "@type": "Telemetry",
+        "name": "WiperStatus",
+        "description": "Windshield wiper status",
+        "comment": "actuator, enumeration",
+        "schema": {
+            "@type": "Enum",
+            "valueSchema": "integer",
+            "enumValues": [
+                {
+                    "name": "off",
+                    "enumValue": 0
+                },
+                {
+                    "name": "slow",
+                    "enumValue": 1
+                },
+                {
+                    "name": "medium",
+                    "enumValue": 2
+                },
+                {
+                    "name": "fast",
+                    "enumValue": 3
+                },
+                {
+                    "name": "interval",
+                    "enumValue": 4
+                },
+                {
+                    "name": "rainsensor",
+                    "enumValue": 5
+                }
+            ]
+        }
+    }
+    ],
+    "@context": "dtmi:dtdl:context;2"
+  }

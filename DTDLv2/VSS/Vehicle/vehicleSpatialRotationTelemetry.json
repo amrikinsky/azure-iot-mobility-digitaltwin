@@ -1,5 +1,5 @@
 {
-    "@id": "dtmi:com:vehicle:VehicleSpatialRotationTelemetry;1",
+    "@id": "dtmi:com:vehicle:SpatialRotation_Telemetry;1",
     "@type": "Interface",
     "comment": "Vehicle spacial rotation telemetry",
     "displayName": "Vehicle Rotation Telemetry",

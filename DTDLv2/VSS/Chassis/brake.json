@@ -1,5 +1,5 @@
 {
-    "@id": "dtmi:com:vehicle:ChassisBrakeTelemetry;1",
+    "@id": "dtmi:com:vehicle:Chassis_Brake_Telemetry;1",
     "@type": "Interface",
     "comment": "Brake system Signals",
     "displayName": "BrakeTelemetry",

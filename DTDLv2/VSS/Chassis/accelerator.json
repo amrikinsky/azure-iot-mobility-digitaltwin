@@ -1,5 +1,5 @@
 {
-    "@id": "dtmi:com:vehicle:ChassisAcceleratorTelemetry;1",
+    "@id": "dtmi:com:vehicle:Chassis_Accelerator_Telemetry;1",
     "@type": "Interface",
     "comment": "Accelerator Signals",
     "displayName": "AcceleratorTelemetry",

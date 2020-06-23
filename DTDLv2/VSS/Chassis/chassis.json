@@ -7,27 +7,27 @@
     {
         "@type": "Relationship",
         "name": "Axle",
-        "target": "dtmi:com:vehicle:ChassisAxle;1"
+        "target": "dtmi:com:vehicle:Chassis_Axle;1"
     },
     {
         "@type": "Relationship",
-        "name": "Accelerator",
-        "target": "dtmi:com:vehicle:ChassisAcceleratorTelemetry;1"
+        "name": "D2C_Accelerator",
+        "target": "dtmi:com:vehicle:Chassis_Accelerator_Telemetry;1"
     },
     {
         "@type": "Relationship",
-        "name": "Brake",
-        "target": "dtmi:com:vehicle:ChassisBrakeTelemetry;1"
+        "name": "D2C_Brake",
+        "target": "dtmi:com:vehicle:Chassis_Brake_Telemetry;1"
     },
     {
         "@type": "Relationship",
-        "name": "Steering",
-        "target": "dtmi:com:vehicle:ChassisSteeringTelemetry;1"
+        "name": "D2C_Steering",
+        "target": "dtmi:com:vehicle:Chassis_Steering_Telemetry;1"
     },
     {
         "@type": "Relationship",
-        "name": "Trailer",
-        "target": "dtmi:com:vehicle:ChassisTrailerTelemetry;1"
+        "name": "D2C_Trailer",
+        "target": "dtmi:com:vehicle:Chassis_Trailer_Telemetry;1"
     },
     {
         "@type": ["Property", "CurbWeight"],
@@ -51,8 +51,8 @@
         "schema": "integer"
     },
     {
-        "@type": "Property",
-        "name": "Length",
+        "@type": ["Property", "OverallLength"],
+        "name": "OverallLength",
         "description": "Overall vehicle length",
         "comment": "unit in mm",
         "schema": "integer"
