@@ -36,12 +36,12 @@
     },
     {
         "@type": "Relationship",
-        "name": "Light",
+        "name": "C2D_D2C_Light",
         "target": "dtmi:com:vehicle:Body_Light;1"
     },
     {
         "@type": "Relationship",
-        "name": "Mirror",
+        "name": "C2D_D2C_Mirror",
         "target": "dtmi:com:vehicle:Body_Mirror;1"
     },
     {
