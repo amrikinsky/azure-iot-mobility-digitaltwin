@@ -10,15 +10,15 @@ find_package(Boost COMPONENTS program_options)
 
 include_directories(
     ../../third-party/jsoncpp/src
-    ../../third-party/yaml-cpp/src/yaml-cpp/include/yaml-cpp
+    ../../third-party/yanml-cpp/src/yaml-cpp/include
     ../vspec-definition
     ../dtdl-definition
-    ../../thirdparty/boost/include/boost)
+    ../../third-party/boost/include)
 
 link_directories(
     ../vspec-definition
     ../dtdl-definition
-    ../../third-party/yaml-cpp/src/yam-cpp-build
+    ../../third-party/yanml-cpp/src/yaml-cpp-build
     ../../third-party/jsoncpp/src/jsoncpp-build/lib
     ../../third-party/boost/lib)
 
