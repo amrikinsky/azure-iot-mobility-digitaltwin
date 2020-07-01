@@ -1,5 +1,5 @@
 {
-    "@id": "dtmi:com:vehicle:wiper;1",
+    "@id": "dtmi:com:ivehicle:wiper;1",
     "@type": "Interface",
     "comment": "Wiper status",
     "displayName": "Wiper",

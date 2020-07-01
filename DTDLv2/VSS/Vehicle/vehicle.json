@@ -1,72 +1,46 @@
 {
     "@id": "dtmi:com:vehicle;1",
-    "@type": "Interface",
+    "@type": "Component",
     "comment": "Attributes that identify a vehicle",
     "displayName": "Vehicle",
     "contents": [
-    {
-        "@type": "Relationship",
-        "name": "D2C_Information",
-        "maxMultiplicity": 1,
-        "minMultiplicity": 0,
-        "target": "dtmi:com:vehicle:Information_telemetry;1"
-    },
-    {
-        "@type": "Relationship",
-        "name": "D2C_SpatialAcceleration",
-        "maxMultiplicity": 1,
-        "minMultiplicity": 0,
-        "target": "dtmi:com:vehicle:SpatialAcceleration_telemetry;1"
-    },
-    {
-        "@type": "Relationship",
-        "name": "D2C_SpatialRotation",
-        "maxMultiplicity": 1,
-        "minMultiplicity": 0,
-        "target": "dtmi:com:vehicle:SpatialRotation_telemetry;1"
-    },
-    {
-        "@type": "Relationship",
-        "name": "chassis",
-        "maxMultiplicity": 1,
-        "target": "dtmi:com:vehicle:chassis;1"
-    },
-    {
-        "@type": "Relationship",
-        "name": "Body",
-        "maxMultiplicity": 1,
-        "target": "dtmi:com:vehicle:body;1"
-    },
-    {
-        "@type": "Property",
-        "name": "VIN",
-        "description": "17-character Vehicle Identification Number (VIN) as defined by ISO 3779",
-        "schema": "string"
-    },
-    {
-        "@type": "Property",
-        "name": "WMI",
-        "description": "3-character World Manufacturer Identification (WMI) as defined by ISO 3780",
-        "schema": "string"
-    },
-    {
-        "@type": "Property",
-        "name": "Brand",
-        "description": "Vehicle brand or manufacturer",
-        "schema": "string"
-    },
-    {
-        "@type": "Property",
-        "name": "Model",
-        "description": "Vehicle model",
-        "schema": "string"
-    },
-    {
-        "@type": ["Property", "Year"],
-        "name": "Year",
-        "description": "Model year of the vehicle",
-        "schema": "integer"
-    }
-    ],
+        {
+            "@type": "Relationship",
+            "name": "Vehicle Interface",
+            "maxMultiplicity": 1,
+            "minMultiplicity": 0,
+            "target": "dtmi:com:ivehicle:information_telemetry;1"
+        },
+        {
+            "@type": "Property",
+            "name": "VIN",
+            "description": "17-character Vehicle Identification Number (VIN) as defined by ISO 3779",
+            "schema": "string"
+        },
+        {
+            "@type": "Property",
+            "name": "WMI",
+            "description": "3-character World Manufacturer Identification (WMI) as defined by ISO 3780",
+            "schema": "string"
+        },
+        {
+            "@type": "Property",
+            "name": "Brand",
+            "description": "Vehicle brand or manufacturer",
+            "schema": "string"
+        },
+        {
+            "@type": "Property",
+            "name": "Model",
+            "description": "Vehicle model",
+            "schema": "string"
+        },
+        {
+            "@type": ["Property", "Year"],
+            "name": "Year",
+            "description": "Model year of the vehicle",
+            "schema": "integer"
+        }
+        ],
     "@context": "dtmi:dtdl:context;2"
-  }
+}
