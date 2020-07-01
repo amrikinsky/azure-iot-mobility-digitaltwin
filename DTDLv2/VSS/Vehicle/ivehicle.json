@@ -1,0 +1,42 @@
+{
+    "@id": "dtmi:com:ivehicle;1",
+    "@type": "Interface",
+    "comment": "Interfaces to a vehicle",
+    "displayName": "Vehicle Interface",
+    "contents": [
+    {
+        "@type": "Relationship",
+        "name": "D2C_Information",
+        "maxMultiplicity": 1,
+        "minMultiplicity": 0,
+        "target": "dtmi:com:ivehicle:information_telemetry;1"
+    },
+    {
+        "@type": "Relationship",
+        "name": "D2C_SpatialAcceleration",
+        "maxMultiplicity": 1,
+        "minMultiplicity": 0,
+        "target": "dtmi:com:ivehicle:spatialacceleration_telemetry;1"
+    },
+    {
+        "@type": "Relationship",
+        "name": "D2C_SpatialRotation",
+        "maxMultiplicity": 1,
+        "minMultiplicity": 0,
+        "target": "dtmi:com:ivehicle:spatialrotation_telemetry;1"
+    },
+    {
+        "@type": "Relationship",
+        "name": "chassis",
+        "maxMultiplicity": 1,
+        "target": "dtmi:com:ivehicle:chassis;1"
+    },
+    {
+        "@type": "Relationship",
+        "name": "Body",
+        "maxMultiplicity": 1,
+        "target": "dtmi:com:ivehicle:body;1"
+    }
+    ],
+    "@context": "dtmi:dtdl:context;2"
+  }

@@ -1,5 +1,5 @@
 {
-    "@id": "dtmi:com:vehicle:windshield:heating;1",
+    "@id": "dtmi:com:ivehicle:windshield:heating;1",
     "@type": "Interface",
     "comment": "Windshield heating signals",
     "displayName": "Heating",
