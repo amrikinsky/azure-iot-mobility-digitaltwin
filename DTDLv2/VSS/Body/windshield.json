@@ -1,5 +1,5 @@
 {
-    "@id": "dtmi:com:ivehicle:body:windshield;1",
+    "@id": "dtmi:com:ivehicle:ibody:windshield;1",
     "@type": "Interface",
     "comment": "Windshield signals",
     "displayName": "Windshield",

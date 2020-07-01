@@ -1,5 +1,5 @@
 {
-    "@id": "dtmi:com:ivehicle:body:light;1",
+    "@id": "dtmi:com:ivehicle:ibody:light;1",
     "@type": "Interface",
     "comment": "All exterior lights",
     "displayName": "Lights",

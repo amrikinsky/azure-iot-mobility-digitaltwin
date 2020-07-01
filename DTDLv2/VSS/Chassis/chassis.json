@@ -1,33 +1,33 @@
 {
-    "@id": "dtmi:com:ivehicle:chassis;1",
+    "@id": "dtmi:com:ivehicle:ichassis;1",
     "@type": "Interface",
     "comment": "Attributes that identify a vehicle",
-    "displayName": "chassis",
+    "displayName": "Chassis interfaces",
     "contents": [
     {
         "@type": "Relationship",
         "name": "Axle",
-        "target": "dtmi:com:ivehicle:chassis:axle;1"
+        "target": "dtmi:com:ivehicle:ichassis:axle;1"
     },
     {
         "@type": "Relationship",
         "name": "D2C_Accelerator",
-        "target": "dtmi:com:ivehicle:chassis:accelerator_telemetry;1"
+        "target": "dtmi:com:ivehicle:ichassis:accelerator_telemetry;1"
     },
     {
         "@type": "Relationship",
         "name": "D2C_Brake",
-        "target": "dtmi:com:ivehicle:chassis:brake_telemetry;1"
+        "target": "dtmi:com:ivehicle:ichassis:brake_telemetry;1"
     },
     {
         "@type": "Relationship",
         "name": "D2C_Steering",
-        "target": "dtmi:com:ivehicle:chassis:steering_telemetry;1"
+        "target": "dtmi:com:ivehicle:ichassis:steering_telemetry;1"
     },
     {
         "@type": "Relationship",
         "name": "D2C_Trailer",
-        "target": "dtmi:com:ivehicle:chassis:trailer_telemetry;1"
+        "target": "dtmi:com:ivehicle:ichassis:trailer_telemetry;1"
     },
     {
         "@type": ["Property", "CurbWeight"],
