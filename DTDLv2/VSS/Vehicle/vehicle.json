@@ -9,33 +9,33 @@
         "name": "D2C_Information",
         "maxMultiplicity": 1,
         "minMultiplicity": 0,
-        "target": "dtmi:com:vehicle:Information_Telemetry;1"
+        "target": "dtmi:com:vehicle:Information_telemetry;1"
     },
     {
         "@type": "Relationship",
         "name": "D2C_SpatialAcceleration",
         "maxMultiplicity": 1,
         "minMultiplicity": 0,
-        "target": "dtmi:com:vehicle:SpatialAcceleration_Telemetry;1"
+        "target": "dtmi:com:vehicle:SpatialAcceleration_telemetry;1"
     },
     {
         "@type": "Relationship",
         "name": "D2C_SpatialRotation",
         "maxMultiplicity": 1,
         "minMultiplicity": 0,
-        "target": "dtmi:com:vehicle:SpatialRotation_Telemetry;1"
+        "target": "dtmi:com:vehicle:SpatialRotation_telemetry;1"
     },
     {
         "@type": "Relationship",
-        "name": "Chassis",
+        "name": "chassis",
         "maxMultiplicity": 1,
-        "target": "dtmi:com:vehicle:Chassis;1"
+        "target": "dtmi:com:vehicle:chassis;1"
     },
     {
         "@type": "Relationship",
         "name": "Body",
         "maxMultiplicity": 1,
-        "target": "dtmi:com:vehicle:Body;1"
+        "target": "dtmi:com:vehicle:body;1"
     },
     {
         "@type": "Property",

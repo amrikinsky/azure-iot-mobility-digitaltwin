@@ -1,5 +1,5 @@
 {
-    "@id": "dtmi:com:vehicle:Body_Trunk;1",
+    "@id": "dtmi:com:vehicle:body:trunk;1",
     "@type": "Interface",
     "comment": "Attributes that identify the trunk of the vehicle's body",
     "displayName": "Trunk",

@@ -1,5 +1,5 @@
 {
-    "@id": "dtmi:com:vehicle:Body_ChargingPort;1",
+    "@id": "dtmi:com:vehicle:body:chargingport;1",
     "@type": "Interface",
     "comment": "Charging Port",
     "displayName": "ChargingPort",

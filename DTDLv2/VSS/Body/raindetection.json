@@ -1,5 +1,5 @@
 {
-    "@id": "dtmi:com:vehicle:Body_Raindetection;1",
+    "@id": "dtmi:com:vehicle:body:raindetection;1",
     "@type": "Interface",
     "comment": "Rainsensor signals",
     "displayName": "Raindetection",

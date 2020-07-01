@@ -1,5 +1,5 @@
 {
-    "@id": "dtmi:com:vehicle:Body_Hood;1",
+    "@id": "dtmi:com:vehicle:body:hood;1",
     "@type": "Interface",
     "comment": "Attributes that identify the hood of the vehicle's body",
     "displayName": "Hood",

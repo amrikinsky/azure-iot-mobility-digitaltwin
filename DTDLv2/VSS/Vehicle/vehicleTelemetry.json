@@ -1,5 +1,5 @@
 {
-    "@id": "dtmi:com:vehicle:Information_Telemetry;1",
+    "@id": "dtmi:com:vehicle:Information_telemetry;1",
     "@type": "Interface",
     "comment": "Vehicle information telemetry",
     "displayName": "Vehicle Information Telemetry",

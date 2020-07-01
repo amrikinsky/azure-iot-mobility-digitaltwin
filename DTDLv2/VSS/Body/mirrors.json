@@ -1,5 +1,5 @@
 {
-    "@id": "dtmi:com:vehicle:Body_Mirror;1",
+    "@id": "dtmi:com:vehicle:body:mirror;1",
     "@type": "Interface",
     "comment": "All exterior mirrors",
     "displayName": "Mirror",

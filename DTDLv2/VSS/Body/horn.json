@@ -1,5 +1,5 @@
 {
-    "@id": "dtmi:com:vehicle:Body_Horn;1",
+    "@id": "dtmi:com:vehicle:body:horn;1",
     "@type": "Interface",
     "comment": "Attributes that identify the horn of the vehicle's body",
     "displayName": "Horn",

@@ -1,5 +1,5 @@
 {
-    "@id": "dtmi:com:vehicle:Windshield_Fluid;1",
+    "@id": "dtmi:com:vehicle:windshield:fluid;1",
     "@type": "Interface",
     "comment": "Windshield fluid signals",
     "displayName": "Fluid",
