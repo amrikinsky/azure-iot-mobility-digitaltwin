@@ -1,15 +1,15 @@
 {
     "@id": "dtmi:com:vehicle;1",
     "@type": "Component",
-    "comment": "Attributes that identify a vehicle",
-    "displayName": "Vehicle",
+    "comment": "Vehicle as a component",
+    "name": "Vehicle",
     "contents": [
         {
             "@type": "Relationship",
             "name": "Vehicle Interface",
             "maxMultiplicity": 1,
             "minMultiplicity": 0,
-            "target": "dtmi:com:ivehicle:information_telemetry;1"
+            "target": "dtmi:com:ivehicle;1"
         }
     ],
     "@context": "dtmi:dtdl:context;2"
