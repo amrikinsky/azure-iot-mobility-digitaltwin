@@ -1,5 +1,5 @@
 {
-    "@id": "dtmi:com:ivehicle:spatialacceleration_telemetry;1",
+    "@id": "dtmi:com:vehicle:spatialacceleration_telemetry;1",
     "@type": "Interface",
     "comment": "Vehicle spacial acceleration telemetry",
     "displayName": "Vehicle acceleration Telemetry",

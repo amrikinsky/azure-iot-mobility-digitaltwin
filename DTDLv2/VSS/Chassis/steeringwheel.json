@@ -1,5 +1,5 @@
 {
-    "@id": "dtmi:com:ivehicle:ichassis:steering_telemetry;1",
+    "@id": "dtmi:com:vehicle:chassis:steering_telemetry;1",
     "@type": "Interface",
     "comment": "Steering Wheel Signals",
     "displayName": "SteeringWheelTelemetry",

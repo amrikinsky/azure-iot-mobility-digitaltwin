@@ -1,56 +1,41 @@
 {
-    "@id": "dtmi:com:ivehicle;1",
+    "@id": "dtmi:com:vehicle;1",
     "@type": "Interface",
     "comment": "Interfaces to a vehicle",
     "displayName": "Vehicle Interfaces",
     "contents": [
     {
-        "@type": "Component",
-        "name": "Device",
-        "schema": "dtmi:com:vehicle;1"
-    },
-    {
-        "@type": "Component",
-        "name": "Chassis",
-        "schema": "dtmi:com:example:chassis;1"
-    },
-    {
-        "@type": "Component",
-        "name": "Body",
-        "schema": "dtmi:com:example:body;1"
-    },
-    {
         "@type": "Relationship",
         "name": "D2C_Information",
         "maxMultiplicity": 1,
         "minMultiplicity": 0,
-        "target": "dtmi:com:ivehicle:information_telemetry;1"
+        "target": "dtmi:com:vehicle:information_telemetry;1"
     },
     {
         "@type": "Relationship",
         "name": "D2C_SpatialAcceleration",
         "maxMultiplicity": 1,
         "minMultiplicity": 0,
-        "target": "dtmi:com:ivehicle:spatialacceleration_telemetry;1"
+        "target": "dtmi:com:vehicle:spatialacceleration_telemetry;1"
     },
     {
         "@type": "Relationship",
         "name": "D2C_SpatialRotation",
         "maxMultiplicity": 1,
         "minMultiplicity": 0,
-        "target": "dtmi:com:ivehicle:spatialrotation_telemetry;1"
+        "target": "dtmi:com:vehicle:spatialrotation_telemetry;1"
     },
     {
         "@type": "Relationship",
         "name": "iChassis",
         "maxMultiplicity": 1,
-        "target": "dtmi:com:ivehicle:ichassis;1"
+        "target": "dtmi:com:vehicle:chassis;1"
     },
     {
         "@type": "Relationship",
         "name": "iBody",
         "maxMultiplicity": 1,
-        "target": "dtmi:com:ivehicle:ibody;1"
+        "target": "dtmi:com:vehicle:body;1"
     },
     {
         "@type": "Property",

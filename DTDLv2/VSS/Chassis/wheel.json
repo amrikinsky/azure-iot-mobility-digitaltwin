@@ -1,5 +1,5 @@
 {
-    "@id": "dtmi:com:ivehicle:ichassis:axle:wheel;1",
+    "@id": "dtmi:com:vehicle:chassis:axle:wheel;1",
     "@type": "Interface",
     "comment": "Wheel Telemetry",
     "displayName": "WheelTelemetry",

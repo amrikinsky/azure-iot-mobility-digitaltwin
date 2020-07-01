@@ -1,5 +1,5 @@
 {
-    "@id": "dtmi:com:ivehicle:ibody;1",
+    "@id": "dtmi:com:vehicle:body;1",
     "@type": "Interface",
     "comment": "Attributes that identify the body of a vehicle",
     "displayName": "Body interfaces",
@@ -7,42 +7,42 @@
     {
         "@type": "Relationship",
         "name": "C2D_D2C_Hood",
-        "target": "dtmi:com:ivehicle:ibody:hood;1"
+        "target": "dtmi:com:vehicle:body:hood;1"
     },
     {
         "@type": "Relationship",
         "name": "C2D_D2C_Horn",
-        "target": "dtmi:com:ivehicle:ibody:horn;1"
+        "target": "dtmi:com:vehicle:body:horn;1"
     },
     {
         "@type": "Relationship",
         "name": "C2D_D2C_Trunk",
-        "target": "dtmi:com:ivehicle:ibody:trunk;1"
+        "target": "dtmi:com:vehicle:body:trunk;1"
     },
     {
         "@type": "Relationship",
         "name": "C2D_ChargingPort",
-        "target": "dtmi:com:ivehicle:ibody:chargingport;1"
+        "target": "dtmi:com:vehicle:body:chargingport;1"
     },
     {
         "@type": "Relationship",
         "name": "C2D_Raindetection",
-        "target": "dtmi:com:ivehicle:ibody:raindetection;1"
+        "target": "dtmi:com:vehicle:body:raindetection;1"
     },
     {
         "@type": "Relationship",
         "name": "Windshield",
-        "target": "dtmi:com:ivehicle:ibody:windshield;1"
+        "target": "dtmi:com:vehicle:body:windshield;1"
     },
     {
         "@type": "Relationship",
         "name": "C2D_D2C_Light",
-        "target": "dtmi:com:ivehicle:ibody:light;1"
+        "target": "dtmi:com:vehicle:body:light;1"
     },
     {
         "@type": "Relationship",
         "name": "C2D_D2C_Mirror",
-        "target": "dtmi:com:ivehicle:ibody:mirror;1"
+        "target": "dtmi:com:vehicle:body:mirror;1"
     },
     {
         "@type": ["Property", "BodyType"],
