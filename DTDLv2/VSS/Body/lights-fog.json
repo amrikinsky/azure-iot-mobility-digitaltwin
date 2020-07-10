@@ -1,0 +1,37 @@
+{
+    "@id": "dtmi:com:vehicle:body:foglight;1",
+    "@type": "Interface",
+    "comment": "Fog lights",
+    "displayName": "Lights",
+    "contents": [
+    {
+        "@type": "Command",
+        "name": "RearFog",
+        "description": "Rear fog lights on or off. True = On. False = Off.",
+        "comment": "actuator",
+        "request": {
+            "name": "IsRearFogOn",
+            "schema": "boolean"
+        },
+        "response": {
+            "name": "IsRearFogOn",
+            "schema": "boolean"
+        }
+    },
+    {
+        "@type": "Command",
+        "name": "FrontFog",
+        "description": "Front fog lights on or off. True = On. False = Off.",
+        "comment": "actuator",
+        "request": {
+            "name": "IsFrontFogOn",
+            "schema": "boolean"
+        },
+        "response": {
+            "name": "IsFrontFogOn",
+            "schema": "boolean"
+        }
+    }
+    ],
+    "@context": "dtmi:dtdl:context;2"
+  }
