@@ -6,34 +6,34 @@
     "contents": [
     {
         "@type": "Relationship",
-        "name": "D2C_Information",
+        "name": "Has_D2C_InformationTelemetry",
         "maxMultiplicity": 1,
         "minMultiplicity": 0,
         "target": "dtmi:com:vehicle:information_telemetry;1"
     },
     {
         "@type": "Relationship",
-        "name": "D2C_SpatialAcceleration",
+        "name": "Has_D2C_SpatialAccelerationTelemetry",
         "maxMultiplicity": 1,
         "minMultiplicity": 0,
         "target": "dtmi:com:vehicle:spatialacceleration_telemetry;1"
     },
     {
         "@type": "Relationship",
-        "name": "D2C_SpatialRotation",
+        "name": "Has_D2C_SpatialRotationTelemetry",
         "maxMultiplicity": 1,
         "minMultiplicity": 0,
         "target": "dtmi:com:vehicle:spatialrotation_telemetry;1"
     },
     {
         "@type": "Relationship",
-        "name": "iChassis",
+        "name": "Contains_iChassis",
         "maxMultiplicity": 1,
         "target": "dtmi:com:vehicle:chassis;1"
     },
     {
         "@type": "Relationship",
-        "name": "iBody",
+        "name": "Contains_iBody",
         "maxMultiplicity": 1,
         "target": "dtmi:com:vehicle:body;1"
     },

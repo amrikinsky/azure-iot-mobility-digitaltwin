@@ -2,32 +2,32 @@
     "@id": "dtmi:com:vehicle:chassis;1",
     "@type": "Interface",
     "comment": "Attributes that identify a vehicle",
-    "displayName": "Chassis interfaces",
+    "displayName": "Chassis",
     "contents": [
     {
         "@type": "Relationship",
-        "name": "Axle",
+        "name": "Contains_Axle",
         "target": "dtmi:com:vehicle:chassis:axle;1"
     },
     {
         "@type": "Relationship",
-        "name": "D2C_Accelerator",
-        "target": "dtmi:com:vehicle:chassis:accelerator_telemetry;1"
+        "name": "Has_D2C_AccelTelem",
+        "target": "dtmi:com:vehicle:chassis:accelerator;1"
     },
     {
         "@type": "Relationship",
-        "name": "D2C_Brake",
-        "target": "dtmi:com:vehicle:chassis:brake_telemetry;1"
+        "name": "Has_D2C_BrakeTelem",
+        "target": "dtmi:com:vehicle:chassis:brake;1"
     },
     {
         "@type": "Relationship",
-        "name": "D2C_Steering",
-        "target": "dtmi:com:vehicle:chassis:steering_telemetry;1"
+        "name": "Has_D2C_SteeringTelem",
+        "target": "dtmi:com:vehicle:chassis:steering;1"
     },
     {
         "@type": "Relationship",
-        "name": "D2C_Trailer",
-        "target": "dtmi:com:vehicle:chassis:trailer_telemetry;1"
+        "name": "Has_D2C_TrailerTelem",
+        "target": "dtmi:com:vehicle:chassis:trailer;1"
     },
     {
         "@type": ["Property", "CurbWeight"],

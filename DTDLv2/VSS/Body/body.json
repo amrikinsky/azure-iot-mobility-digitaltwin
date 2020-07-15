@@ -6,32 +6,32 @@
     "contents": [
     {
         "@type": "Relationship",
-        "name": "C2D_D2C_Hood",
+        "name": "Has_C2D_D2C_Hood",
         "target": "dtmi:com:vehicle:body:hood;1"
     },
     {
         "@type": "Relationship",
-        "name": "C2D_D2C_Horn",
+        "name": "Has_C2D_D2C_Horn",
         "target": "dtmi:com:vehicle:body:horn;1"
     },
     {
         "@type": "Relationship",
-        "name": "C2D_D2C_Trunk",
+        "name": "Has_C2D_D2C_Trunk",
         "target": "dtmi:com:vehicle:body:trunk;1"
     },
     {
         "@type": "Relationship",
-        "name": "C2D_ChargingPort",
+        "name": "Has_C2D_ChargingPort",
         "target": "dtmi:com:vehicle:body:chargingport;1"
     },
     {
         "@type": "Relationship",
-        "name": "C2D_Raindetection",
+        "name": "Has_C2D_Raindetection",
         "target": "dtmi:com:vehicle:body:raindetection;1"
     },
     {
         "@type": "Relationship",
-        "name": "Windshield",
+        "name": "Contains_Windshield",
         "target": "dtmi:com:vehicle:body:windshield;1"
     },
     {
@@ -41,7 +41,7 @@
     },
     {
         "@type": "Relationship",
-        "name": "C2D_D2C_Mirror",
+        "name": "Has_C2D_D2C_Mirror",
         "target": "dtmi:com:vehicle:body:mirror;1"
     },
     {

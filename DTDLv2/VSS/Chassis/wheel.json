@@ -2,7 +2,7 @@
     "@id": "dtmi:com:vehicle:chassis:axle:wheel;1",
     "@type": "Interface",
     "comment": "Wheel Telemetry",
-    "displayName": "WheelTelemetry",
+    "displayName": "Wheel",
     "contents": [
     {
         "@type": ["Property", "Row"],

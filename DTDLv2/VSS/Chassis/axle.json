@@ -6,13 +6,14 @@
     "contents": [
     {
         "@type": "Relationship",
-        "name": "D2C_Wheel",
+        "name": "Contains_Wheel",
+        "maxMultiplicity": 2,
         "target": "dtmi:com:vehicle:chassis:axle:wheel;1"
     },
     {
         "@type": "Relationship",
-        "name": "D2C_ParkingBrake",
-        "target": "dtmi:com:vehicle:chassis:axle:wheel:parkingbrake_telemetry;1"
+        "name": "Has_D2C_ParkingBrakeTelemetry",
+        "target": "dtmi:com:vehicle:chassis:axle:wheel:parkingbrake;1"
     },
     {
         "@type": ["Property", "Row"],

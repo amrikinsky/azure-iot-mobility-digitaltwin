@@ -1,0 +1,80 @@
+{
+    "@id": "dtmi:com:vehicle:cabin:hvac;1",
+    "@type": "Interface",
+    "comment": "HVAC system climate control",
+    "displayName": "HVAC",
+    "contents": [
+    {
+        "@type": "Command",
+        "name": "IsRecirculationActive",
+        "description": "Is recirculation active.",
+        "comment": "actuator",
+        "request": {
+            "name": "IsRecirculationActive",
+            "comment": "On = true, Off = false",
+            "schema": "boolean"
+        },
+        "response": {
+            "name": "IsRecirculationActive",
+            "comment": "On = true, Off = false",
+            "schema": "boolean"
+        }
+    },
+    {
+        "@type": "Command",
+        "name": "IsFrontDefrosterActive",
+        "description": "Is front defroster active.",
+        "comment": "actuator",
+        "request": {
+            "name": "IsFrontDefrosterActive",
+            "comment": "On = true, Off = false",
+            "schema": "boolean"
+        },
+        "response": {
+            "name": "IsFrontDefrosterActive",
+            "comment": "On = true, Off = false",
+            "schema": "boolean"
+        }
+    },
+    {
+        "@type": "Command",
+        "name": "IsRearDefrosterActive",
+        "description": "Is front defroster active.",
+        "comment": "actuator",
+        "request": {
+            "name": "IsRearDefrosterActive",
+            "comment": "On = true, Off = false",
+            "schema": "boolean"
+        },
+        "response": {
+            "name": "IsRearDefrosterActive",
+            "comment": "On = true, Off = false",
+            "schema": "boolean"
+        }
+    },
+    {
+        "@type": "Command",
+        "name": "IsAirConditioningActive",
+        "description": "Is front defroster active.",
+        "comment": "actuator",
+        "request": {
+            "name": "IsAirConditioningActive",
+            "comment": "On = true, Off = false",
+            "schema": "boolean"
+        },
+        "response": {
+            "name": "IsAirConditioningActive",
+            "comment": "On = true, Off = false",
+            "schema": "boolean"
+        }
+    },
+    {
+        "@type": "Telemetry",
+        "name": "AmbientAirTemperature",
+        "description": "Ambient air temperature.",
+        "comment": "sensor, in celius",
+        "schema": "integer"
+     }
+    ],
+    "@context": "dtmi:dtdl:context;2"
+  }

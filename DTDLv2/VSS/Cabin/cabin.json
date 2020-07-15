@@ -1,0 +1,19 @@
+{
+    "@id": "dtmi:com:vehicle:cabin;1",
+    "@type": "Interface",
+    "comment": "Cabin of a vehicle",
+    "displayName": "Cabin",
+    "contents": [
+    {
+        "@type": "Relationship",
+        "name": "Has_C2D_D2C",
+        "target": "dtmi:com:vehicle:cabin:hvac;1"
+    },
+    {
+        "@type": "Relationship",
+        "name": "Has_D2C",
+        "target": "dtmi:com:vehicle:cabin:hvac;1"
+    }
+    ],
+    "@context": "dtmi:dtdl:context;2"
+  }

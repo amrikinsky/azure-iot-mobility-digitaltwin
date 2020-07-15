@@ -1,0 +1,98 @@
+{
+    "@id": "dtmi:com:vehicle:cabin:sunroof;1",
+    "@type": "Interface",
+    "comment": "Sun roof status",
+    "displayName": "Sunroof",
+    "contents": [
+    {
+        "@type": ["Telemetry", "Position"],
+        "name": "Position",
+        "description": "Sunroof position. 0 = Fully closed 100 = Fully opened. -100 = Fully tilted.",
+        "comment": "sensor, units in position",
+        "schema": "integer"
+    },
+    {
+        "@type": "Command",
+        "name": "Switch",
+        "description": "Switch controlling sliding action such as window, sunroof, or shade.",
+        "comment": "actuator, enumeration",
+        "request":
+        {
+            "name": "Switch",
+            "schema": {
+                "@type": "Enum",
+                "valueSchema": "integer",
+                "enumValues": [
+                    {
+                        "name": "Inactive",
+                        "enumValue": 0
+                    },
+                    {
+                        "name": "Close",
+                        "enumValue": 1
+                    },
+                    {
+                        "name": "Open",
+                        "enumValue": 2
+                    },
+                    {
+                        "name": "OneShotClose",
+                        "enumValue": 3
+                    },
+                    {
+                        "name": "OneShotOpen",
+                        "enumValue": 4
+                    },
+                    {
+                        "name": "TiltUp",
+                        "enumValue": 5
+                    },
+                    {
+                        "name": "TiltDown",
+                        "enumValue": 6
+                    }
+                ]
+            }
+        },
+        "response":
+        {
+            "name": "Switch",
+            "schema": {
+                "@type": "Enum",
+                "valueSchema": "integer",
+                "enumValues": [
+                    {
+                        "name": "Inactive",
+                        "enumValue": 0
+                    },
+                    {
+                        "name": "Close",
+                        "enumValue": 1
+                    },
+                    {
+                        "name": "Open",
+                        "enumValue": 2
+                    },
+                    {
+                        "name": "OneShotClose",
+                        "enumValue": 3
+                    },
+                    {
+                        "name": "OneShotOpen",
+                        "enumValue": 4
+                    },
+                    {
+                        "name": "TiltUp",
+                        "enumValue": 5
+                    },
+                    {
+                        "name": "TiltDown",
+                        "enumValue": 6
+                    }
+                ]
+            }
+        }
+    }
+    ],
+    "@context": "dtmi:dtdl:context;2"
+}
