@@ -27,15 +27,21 @@
     },
     {
         "@type": "Relationship",
-        "name": "Contains_iChassis",
+        "name": "Contains_Chassis",
         "maxMultiplicity": 1,
         "target": "dtmi:com:vehicle:chassis;1"
     },
     {
         "@type": "Relationship",
-        "name": "Contains_iBody",
+        "name": "Contains_Body",
         "maxMultiplicity": 1,
         "target": "dtmi:com:vehicle:body;1"
+    },
+    {
+        "@type": "Relationship",
+        "name": "Contains_Cabin",
+        "maxMultiplicity": 1,
+        "target": "dtmi:com:vehicle:cabin;1"
     },
     {
         "@type": "Property",
