@@ -11,85 +11,85 @@
     },
     {
         "@type": "Relationship",
-        "name": "Has_D2C_AccelTelem",
+        "name": "has_accelTelem",
         "target": "dtmi:com:vehicle:chassis:accelerator;1"
     },
     {
         "@type": "Relationship",
-        "name": "Has_D2C_BrakeTelem",
+        "name": "has_brakeTelem",
         "target": "dtmi:com:vehicle:chassis:brake;1"
     },
     {
         "@type": "Relationship",
-        "name": "Has_D2C_SteeringTelem",
+        "name": "has_steeringTelem",
         "target": "dtmi:com:vehicle:chassis:steering;1"
     },
     {
         "@type": "Relationship",
-        "name": "Has_D2C_TrailerTelem",
+        "name": "has_trailerTelem",
         "target": "dtmi:com:vehicle:chassis:trailer;1"
     },
     {
-        "@type": ["Property", "CurbWeight"],
+        "@type": "Property",
         "name": "CurbWeight",
         "description": "Vehicle curb weight, including all liquids and full tank of fuel, but no cargo or passengers",
         "comment": "unit in kg",
         "schema": "integer"
     },
     {
-        "@type": ["Property", "GrossWeight"],
+        "@type": "Property",
         "name": "GrossWeight",
         "description": "Curb weight of vehicle, including all liquids and full tank of fuel and full load of cargo and passengers",
         "comment": "unit in kg",
         "schema": "integer"
     },
     {
-        "@type": ["Property", "TowWeight"],
+        "@type": "Property",
         "name": "TowWeight",
         "description": "Maximum weight of trailer",
         "comment": "unit in kg",
         "schema": "integer"
     },
     {
-        "@type": ["Property", "OverallLength"],
+        "@type": "Property",
         "name": "OverallLength",
         "description": "Overall vehicle length",
         "comment": "unit in mm",
         "schema": "integer"
     },
     {
-        "@type": ["Property", "Height"],
+        "@type": "Property",
         "name": "Height",
         "description": "Overall vehicle height",
         "comment": "unit in mm",
         "schema": "integer"
     },
     {
-        "@type": ["Property", "Width"],
+        "@type": "Property",
         "name": "Width",
         "description": "Overall vehicle width",
         "comment": "unit in mm",
         "schema": "integer"
     },
     {
-        "@type": ["Property", "Wheelbase"],
+        "@type": "Property",
         "name": "Wheelbase",
         "description": "Overall wheelbase",
         "comment": "unit in mm",
         "schema": "integer"
     },
     {
-        "@type": ["Property", "Track"],
+        "@type": "Property",
         "name": "Track",
         "description": "Overall tracking",
-        "comment": "unit in mm",
+        "comment": "unit as number",
         "schema": "integer"
     },
     {
-        "@type": ["Property", "Axles"],
+        "@type": "Property",
         "name": "Axles",
         "description": "Number of axles on the vehicle",
-        "comment": "unit in mm",
+        "comment": "unit as number",
         "schema": "integer"
     }
     ],

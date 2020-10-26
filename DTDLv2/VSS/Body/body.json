@@ -6,52 +6,52 @@
     "contents": [
     {
         "@type": "Relationship",
-        "name": "Has_C2D_D2C_Hood",
+        "name": "has_hood",
         "target": "dtmi:com:vehicle:body:hood;1"
     },
     {
         "@type": "Relationship",
-        "name": "Has_C2D_D2C_Horn",
+        "name": "has_horn",
         "target": "dtmi:com:vehicle:body:horn;1"
     },
     {
         "@type": "Relationship",
-        "name": "Has_C2D_D2C_Trunk",
+        "name": "has_trunk",
         "target": "dtmi:com:vehicle:body:trunk;1"
     },
     {
         "@type": "Relationship",
-        "name": "Has_C2D_ChargingPort",
+        "name": "has_chargingPort",
         "target": "dtmi:com:vehicle:body:chargingport;1"
     },
     {
         "@type": "Relationship",
-        "name": "Has_C2D_Raindetection",
+        "name": "has_raindetection",
         "target": "dtmi:com:vehicle:body:raindetection;1"
     },
     {
         "@type": "Relationship",
-        "name": "Contains_Windshield",
+        "name": "contains_windshield",
         "target": "dtmi:com:vehicle:body:windshield;1"
     },
     {
         "@type": "Relationship",
-        "name": "C2D_D2C_Light",
+        "name": "contains_light",
         "target": "dtmi:com:vehicle:body:light;1"
     },
     {
         "@type": "Relationship",
-        "name": "Has_C2D_D2C_Mirror",
+        "name": "has_mirror",
         "target": "dtmi:com:vehicle:body:mirror;1"
     },
     {
-        "@type": ["Property", "BodyType"],
+        "@type": "Property",
         "name": "BodyType",
         "description": "Body type code as defined by ISO 3779",
         "schema": "string" 
     },
     {
-        "@type": ["Property", "RefuelPosition"],
+        "@type": "Property",
         "name": "RefuelPosition",
         "description": "Location of the fuel cap or charge port",
         "comment": "unit in kg",

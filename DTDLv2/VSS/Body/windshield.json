@@ -6,21 +6,21 @@
     "contents": [
     {
         "@type": "Relationship",
-        "name": "Has_D2C_Wiper",
+        "name": "has_wiper",
         "target": "dtmi:com:vehicle:wiper;1"
     },
     {
         "@type": "Relationship",
-        "name": "Has_D2C_Fluid",
+        "name": "has_fluid",
         "target": "dtmi:com:vehicle:windshield:fluid;1"
     },
     {
         "@type": "Relationship",
-        "name": "Has_C2D_D2C_Heating",
+        "name": "has_heating",
         "target": "dtmi:com:vehicle:windshield:heating;1"
     },
     {
-        "@type": ["Property", "Row"],
+        "@type": "Property",
         "name": "Row",
         "description": "Row 1 is front, row 2 rear",
         "comment": "row number",
