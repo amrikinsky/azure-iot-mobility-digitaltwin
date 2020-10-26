@@ -5,7 +5,7 @@
     "displayName": "TrailerTelemetry",
     "contents": [
     {
-        "@type": ["Telemetry", "Connected"],
+        "@type": "Telemetry",
         "name": "Connected",
         "description": "Signal indicating if trailer is connected or not.",
         "comment": "True = connected, False = not connected",

@@ -6,27 +6,27 @@
     "contents": [
     {
         "@type": "Relationship",
-        "name": "Contains_Axle",
+        "name": "contains_axle",
         "target": "dtmi:com:vehicle:chassis:axle;1"
     },
     {
         "@type": "Relationship",
-        "name": "has_accelTelem",
+        "name": "has_accelTelemetry",
         "target": "dtmi:com:vehicle:chassis:accelerator;1"
     },
     {
         "@type": "Relationship",
-        "name": "has_brakeTelem",
+        "name": "has_brakeTelemetry",
         "target": "dtmi:com:vehicle:chassis:brake;1"
     },
     {
         "@type": "Relationship",
-        "name": "has_steeringTelem",
+        "name": "has_steeringTelemetry",
         "target": "dtmi:com:vehicle:chassis:steering;1"
     },
     {
         "@type": "Relationship",
-        "name": "has_trailerTelem",
+        "name": "has_trailerTelemetry",
         "target": "dtmi:com:vehicle:chassis:trailer;1"
     },
     {

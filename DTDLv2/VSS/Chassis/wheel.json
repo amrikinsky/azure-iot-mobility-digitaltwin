@@ -5,56 +5,56 @@
     "displayName": "Wheel",
     "contents": [
     {
-        "@type": ["Property", "Row"],
+        "@type": "Property",
         "name": "Row",
         "description": "Row 1 is left, 2 is right.",
         "comment": "row number",
         "schema": "integer"
     },  
     {
-        "@type": ["Telemetry", "TirePressure"],
+        "@type": "Telemetry",
         "name": "TirePressure",
         "description": "Tire pressure in kilo-Pascal",
         "comment": "unit in kpa",
         "schema": "integer"
     },
     {
-        "@type": ["Telemetry", "TirePressureLow"],
+        "@type": "Telemetry",
         "name": "TirePressureLow",
         "description": "Tire Pressure Status. True = Low tire pressure. False = Good tire pressure.",
         "comment": "unit as boolean",
         "schema": "boolean"
     },
     {
-        "@type": ["Telemetry", "TireTemperature"],
+        "@type": "Telemetry",
         "name": "TireTireDiameter",
         "description": "Tire temperature in Celsius",
         "comment": "unit in celsius",
         "schema": "float"
     },
     {
-        "@type": ["Telemetry", "BreakFluidLevel"],
+        "@type": "Telemetry",
         "name": "BreakFluidLevel",
         "description": "Brake fluid level as percent. 0 = Empty. 100 = Full.",
         "comment": "unit in percent",
         "schema": "integer"
     },
     {
-        "@type": ["Telemetry", "BreakFluidLevelLow"],
+        "@type": "Telemetry",
         "name": "BreakFluidLevelLow",
         "description": "Brake fluid level status. True = Brake fluid level low. False = Brake fluid level OK.",
         "comment": "unit as boolean",
         "schema": "boolean"
     },
     {
-        "@type": ["Telemetry", "BreakPadWear"],
+        "@type": "Telemetry",
         "name": "BreakPadWear",
         "description": "Brake pad wear as percent. 0 = No Wear. 100 = Worn.",
         "comment": "unit in percent",
         "schema": "integer"
     },
     {
-        "@type": ["Telemetry", "BreakBrakesWorn"],
+        "@type": "Telemetry",
         "name": "BreakBrakesWorn",
         "description": "Brake pad wear status. True = Worn. False = Not Worn.",
         "comment": "unit as boolean",

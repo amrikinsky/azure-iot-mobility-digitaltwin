@@ -6,7 +6,7 @@
     "contents": [
     {
         "@type": "Relationship",
-        "name": "Contains_Wheel",
+        "name": "contains_wheel",
         "maxMultiplicity": 2,
         "target": "dtmi:com:vehicle:chassis:axle:wheel;1"
     },

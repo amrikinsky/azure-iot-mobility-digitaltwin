@@ -5,7 +5,7 @@
     "displayName": "ParkingBrakeTelemetry",
     "contents": [
     {
-        "@type": ["Telemetry", "IsEngaged"],
+        "@type": "Telemetry",
         "name": "IsEngaged",
         "description": "Parking brake status. True = Parking Brake is Engaged. False = Parking Brake is not Engaged.",
         "schema": "boolean"
