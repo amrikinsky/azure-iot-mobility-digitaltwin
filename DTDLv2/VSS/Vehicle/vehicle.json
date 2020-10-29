@@ -2,7 +2,7 @@
     "@id": "dtmi:com:vehicle;1",
     "@type": "Interface",
     "comment": "Interfaces to a vehicle",
-    "displayName": "Vehicle Interfaces",
+    "displayName": "Vehicle",
     "contents": [
     {
         "@type": "Relationship",
@@ -71,6 +71,83 @@
         "@type": "Property",
         "name": "Year",
         "description": "Model year of the vehicle",
+        "schema": "string"
+    },
+    {
+        "@type": "Telemetry",
+        "name": "IgnitionOnTime",
+        "description": "Accumulated ignition on time in seconds",
+        "comment": "unit in seconds",
+        "schema": "string"
+    },
+    {
+        "@type": "Telemetry",
+        "name": "IgnitionOffTime",
+        "description": "Accumulated ignition off time in seconds",
+        "comment": "unit in seconds",
+        "schema": "string" 
+    },
+    {
+        "@type": "Telemetry",
+        "name": "DriveTime",
+        "description": "Accumulated drive time in seconds",
+        "comment": "unit in seconds",
+        "schema": "string"
+    },
+    {
+        "@type": "Telemetry",
+        "name": "IdleTime",
+        "description": "Accumulated idle time in seconds",
+        "comment": "unit in seconds",
+        "schema": "string"
+    },
+    {
+        "@type": "Telemetry",
+        "name": "Speed",
+        "description": "Vehicle speed, as sensed by the gearbox",
+        "comment": "min -250, max 250, km/h",
+        "schema": "string"
+    },
+    {
+        "@type": "Telemetry",
+        "name": "AccelerationLongitudinal",
+        "description": "Vehicle acceleration in X (longitudinal acceleration)",
+        "comment": "unit in m/s2",
+        "schema": "string"
+    },
+    {
+        "@type": "Telemetry",
+        "name": "AccelerationLateral",
+        "description": "Vehicle acceleration in Y (lateral acceleration)",
+        "comment": "unit in m/s2",
+        "schema": "string" 
+    },
+    {
+        "@type": "Telemetry",
+        "name": "AccelerationVertical",
+        "description": "Vehicle acceleration in Z (vertical acceleration)",
+        "comment": "unit in seconds",
+        "schema": "string"
+    },
+    {
+        "@type": "Telemetry",
+        "name": "RotationRoll",
+        "description": "Vehicle rotation rate along X (longitudinal)",
+        "comment": "unit in degrees/s",
+        "schema": "string"
+    },
+    {
+        "@type": "Telemetry",
+        "name": "RotationPitch",
+        "description": "Vehicle Rotation in Y (Pitch Rotation)",
+        "comment": "unit in degrees/s",
+        "schema": "string" 
+    },
+    {
+        "@type": "Telemetry",
+        "name": "RotationYaw",
+        "description": "Vehicle Rotation in Z (Yaw Rotation)",
+        "comment": "unit in degrees/s",
         "schema": "string"
     }
     ],

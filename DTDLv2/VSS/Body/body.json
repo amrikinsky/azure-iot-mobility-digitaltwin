@@ -2,7 +2,7 @@
     "@id": "dtmi:com:vehicle:body;1",
     "@type": "Interface",
     "comment": "Attributes that identify the body of a vehicle",
-    "displayName": "Body interfaces",
+    "displayName": "Body",
     "contents": [
     {
         "@type": "Relationship",

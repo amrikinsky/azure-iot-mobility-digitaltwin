@@ -23,7 +23,7 @@
             "name": "RotationYaw",
             "description": "Vehicle Rotation in Z (Yaw Rotation)",
             "comment": "unit in degrees/s",
-            "schema": "long"
+            "schema": "string"
         }
     ],
     "@context": "dtmi:dtdl:context;2"

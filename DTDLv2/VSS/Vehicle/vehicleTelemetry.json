@@ -9,28 +9,28 @@
             "name": "IgnitionOnTime",
             "description": "Accumulated ignition on time in seconds",
             "comment": "unit in seconds",
-            "schema": "long"
+            "schema": "string"
         },
         {
             "@type": "Telemetry",
             "name": "IgnitionOffTime",
             "description": "Accumulated ignition off time in seconds",
             "comment": "unit in seconds",
-            "schema": "long" 
+            "schema": "string" 
         },
         {
             "@type": "Telemetry",
             "name": "DriveTime",
             "description": "Accumulated drive time in seconds",
             "comment": "unit in seconds",
-            "schema": "long"
+            "schema": "string"
         },
         {
             "@type": "Telemetry",
             "name": "IdleTime",
             "description": "Accumulated idle time in seconds",
             "comment": "unit in seconds",
-            "schema": "long"
+            "schema": "string"
         },
         {
             "@type": "Telemetry",

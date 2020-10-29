@@ -23,7 +23,7 @@
             "name": "AccelerationVertical",
             "description": "Vehicle acceleration in Z (vertical acceleration)",
             "comment": "unit in seconds",
-            "schema": "long"
+            "schema": "string"
         }
     ],
     "@context": "dtmi:dtdl:context;2"
