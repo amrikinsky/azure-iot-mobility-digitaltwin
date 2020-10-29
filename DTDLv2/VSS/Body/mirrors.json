@@ -12,12 +12,12 @@
         "request": {
             "name": "Tilt",
             "comment": "units in percent",
-            "schema": "integer"
+            "schema": "string"
         },
         "response": {
             "name": "Tilt",
             "comment": "units in percent",
-            "schema": "integer"
+            "schema": "string"
         }
     },
     {
@@ -28,12 +28,12 @@
         "request": {
             "name": "Pan",
             "comment": "units in percent",
-            "schema": "integer"
+            "schema": "string"
         },
         "response": {
             "name": "Pan",
             "comment": "units in percent",
-            "schema": "integer"
+            "schema": "string"
         }
     },
     {
@@ -43,11 +43,11 @@
         "comment": "actuator",
         "request": {
             "name": "Heating",
-            "schema": "boolean"
+            "schema": "string"
         },
         "response": {
             "name": "Heating",
-            "schema": "boolean"
+            "schema": "string"
         }
     }
     ],

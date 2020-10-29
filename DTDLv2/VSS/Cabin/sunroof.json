@@ -9,7 +9,7 @@
         "name": "Position",
         "description": "Sunroof position. 0 = Fully closed 100 = Fully opened. -100 = Fully tilted.",
         "comment": "sensor, units in position",
-        "schema": "integer"
+        "schema": "string"
     },
     {
         "@type": "Command",

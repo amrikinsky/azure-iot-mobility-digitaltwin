@@ -9,7 +9,7 @@
         "name": "Connected",
         "description": "Signal indicating if trailer is connected or not.",
         "comment": "True = connected, False = not connected",
-        "schema": "boolean"
+        "schema": "string"
     }
     ],
     "@context": "dtmi:dtdl:context;2"

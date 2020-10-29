@@ -11,11 +11,11 @@
         "comment": "actuator",
         "request": {
             "name": "IsOpen",
-            "schema": "boolean"
+            "schema": "string"
         },
         "response": {
             "name": "IsOpen",
-            "schema": "boolean"
+            "schema": "string"
         }
     },
     {
@@ -25,11 +25,11 @@
         "comment": "actuator",
         "request": {
             "name": "IsOpen",
-            "schema": "boolean"
+            "schema": "string"
         },
         "response": {
             "name": "IsOpen",
-            "schema": "boolean"
+            "schema": "string"
         }
     },
     {
@@ -37,14 +37,14 @@
         "name": "IsOpenTelemetry",
         "description": "Trunk open or closed. True = Open. False = Closed",
         "comment": "sensor",
-        "schema": "boolean"
+        "schema": "string"
     },
     {
         "@type": "Telemetry",
         "name": "IsLockedTelemetry",
         "description": "Is trunk locked or unlocked. True = Locked. False = Unlocked",
         "comment": "sensor",
-        "schema": "boolean"
+        "schema": "string"
     }
     ],
     "@context": "dtmi:dtdl:context;2"

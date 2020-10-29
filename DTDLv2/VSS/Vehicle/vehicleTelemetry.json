@@ -37,7 +37,7 @@
             "name": "Speed",
             "description": "Vehicle speed, as sensed by the gearbox",
             "comment": "min -250, max 250, km/h",
-            "schema": "integer"
+            "schema": "string"
         }
     ],
     "@context": "dtmi:dtdl:context;2"

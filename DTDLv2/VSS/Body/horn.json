@@ -11,11 +11,11 @@
         "comment": "actuator",
         "request": {
             "name": "IsActive",
-            "schema": "boolean"
+            "schema": "string"
         },
         "response": {
             "name": "IsActive",
-            "schema": "boolean"
+            "schema": "string"
         }
     }
     ],

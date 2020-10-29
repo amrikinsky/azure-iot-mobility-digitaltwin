@@ -24,7 +24,7 @@
         "name": "Row",
         "description": "Row 1 is front, row 2 rear",
         "comment": "row number",
-        "schema": "integer"
+        "schema": "string"
     }
     ],
     "@context": "dtmi:dtdl:context;2"

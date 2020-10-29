@@ -12,12 +12,12 @@
         "request": {
             "name": "IsRecirculationActive",
             "comment": "On = true, Off = false",
-            "schema": "boolean"
+            "schema": "string"
         },
         "response": {
             "name": "IsRecirculationActive",
             "comment": "On = true, Off = false",
-            "schema": "boolean"
+            "schema": "string"
         }
     },
     {
@@ -28,12 +28,12 @@
         "request": {
             "name": "IsFrontDefrosterActive",
             "comment": "On = true, Off = false",
-            "schema": "boolean"
+            "schema": "string"
         },
         "response": {
             "name": "IsFrontDefrosterActive",
             "comment": "On = true, Off = false",
-            "schema": "boolean"
+            "schema": "string"
         }
     },
     {
@@ -44,12 +44,12 @@
         "request": {
             "name": "IsRearDefrosterActive",
             "comment": "On = true, Off = false",
-            "schema": "boolean"
+            "schema": "string"
         },
         "response": {
             "name": "IsRearDefrosterActive",
             "comment": "On = true, Off = false",
-            "schema": "boolean"
+            "schema": "string"
         }
     },
     {
@@ -60,12 +60,12 @@
         "request": {
             "name": "IsAirConditioningActive",
             "comment": "On = true, Off = false",
-            "schema": "boolean"
+            "schema": "string"
         },
         "response": {
             "name": "IsAirConditioningActive",
             "comment": "On = true, Off = false",
-            "schema": "boolean"
+            "schema": "string"
         }
     },
     {
@@ -73,7 +73,7 @@
         "name": "AmbientAirTemperature",
         "description": "Ambient air temperature.",
         "comment": "sensor, in celius",
-        "schema": "integer"
+        "schema": "string"
      }
     ],
     "@context": "dtmi:dtdl:context;2"

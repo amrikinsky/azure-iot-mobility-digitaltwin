@@ -34,63 +34,63 @@
         "name": "CurbWeight",
         "description": "Vehicle curb weight, including all liquids and full tank of fuel, but no cargo or passengers",
         "comment": "unit in kg",
-        "schema": "integer"
+        "schema": "string"
     },
     {
         "@type": "Property",
         "name": "GrossWeight",
         "description": "Curb weight of vehicle, including all liquids and full tank of fuel and full load of cargo and passengers",
         "comment": "unit in kg",
-        "schema": "integer"
+        "schema": "string"
     },
     {
         "@type": "Property",
         "name": "TowWeight",
         "description": "Maximum weight of trailer",
         "comment": "unit in kg",
-        "schema": "integer"
+        "schema": "string"
     },
     {
         "@type": "Property",
         "name": "OverallLength",
         "description": "Overall vehicle length",
         "comment": "unit in mm",
-        "schema": "integer"
+        "schema": "float"
     },
     {
         "@type": "Property",
         "name": "Height",
         "description": "Overall vehicle height",
         "comment": "unit in mm",
-        "schema": "integer"
+        "schema": "float"
     },
     {
         "@type": "Property",
         "name": "Width",
         "description": "Overall vehicle width",
         "comment": "unit in mm",
-        "schema": "integer"
+        "schema": "float"
     },
     {
         "@type": "Property",
         "name": "Wheelbase",
         "description": "Overall wheelbase",
         "comment": "unit in mm",
-        "schema": "integer"
+        "schema": "float"
     },
     {
         "@type": "Property",
         "name": "Track",
         "description": "Overall tracking",
         "comment": "unit as number",
-        "schema": "integer"
+        "schema": "string"
     },
     {
         "@type": "Property",
         "name": "Axles",
         "description": "Number of axles on the vehicle",
         "comment": "unit as number",
-        "schema": "integer"
+        "schema": "string"
     }
     ],
     "@context": "dtmi:dtdl:context;2"

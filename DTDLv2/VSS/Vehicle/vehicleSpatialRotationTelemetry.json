@@ -9,14 +9,14 @@
             "name": "RotationRoll",
             "description": "Vehicle rotation rate along X (longitudinal)",
             "comment": "unit in degrees/s",
-            "schema": "integer"
+            "schema": "string"
         },
         {
             "@type": "Telemetry",
             "name": "RotationPitch",
             "description": "Vehicle Rotation in Y (Pitch Rotation)",
             "comment": "unit in degrees/s",
-            "schema": "integer" 
+            "schema": "string" 
         },
         {
             "@type": "Telemetry",

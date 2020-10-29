@@ -9,14 +9,14 @@
             "name": "AccelerationLongitudinal",
             "description": "Vehicle acceleration in X (longitudinal acceleration)",
             "comment": "unit in m/s2",
-            "schema": "integer"
+            "schema": "string"
         },
         {
             "@type": "Telemetry",
             "name": "AccelerationLateral",
             "description": "Vehicle acceleration in Y (lateral acceleration)",
             "comment": "unit in m/s2",
-            "schema": "integer" 
+            "schema": "string" 
         },
         {
             "@type": "Telemetry",

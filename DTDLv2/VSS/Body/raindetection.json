@@ -9,7 +9,7 @@
         "name": "Intensity",
         "description": "Rain intensity. 0 = Dry, No Rain. 100 = Covered.",
         "comment": "sensor, unit in percent",
-        "schema": "integer"
+        "schema": "string"
     }
     ],
     "@context": "dtmi:dtdl:context;2"

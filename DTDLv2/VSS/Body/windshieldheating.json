@@ -11,11 +11,11 @@
         "comment": "actuator, On = True, Off = False",
         "request": {
             "name": "Heater",
-            "schema": "boolean"
+            "schema": "string"
         },
         "response": {
             "name": "Heater",
-            "schema": "boolean"
+            "schema": "string"
         }
     },
     {
@@ -23,7 +23,7 @@
         "name": "HeaterStatus",
         "description": "Windshield heater status",
         "comment": "sensor, On = True, Off = False",
-        "schema": "boolean"
+        "schema": "string"
     }
     ],
     "@context": "dtmi:dtdl:context;2"

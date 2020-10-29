@@ -11,11 +11,11 @@
         "comment": "actuator",
         "request": {
             "name": "IsRearFogOn",
-            "schema": "boolean"
+            "schema": "string"
         },
         "response": {
             "name": "IsRearFogOn",
-            "schema": "boolean"
+            "schema": "string"
         }
     },
     {
@@ -25,11 +25,11 @@
         "comment": "actuator",
         "request": {
             "name": "IsFrontFogOn",
-            "schema": "boolean"
+            "schema": "string"
         },
         "response": {
             "name": "IsFrontFogOn",
-            "schema": "boolean"
+            "schema": "string"
         }
     }
     ],

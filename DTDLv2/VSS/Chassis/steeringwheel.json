@@ -9,21 +9,21 @@
         "name": "WheelAngle",
         "description": "Steering wheel angle. Positive is degrees to the left. Negative is degrees to the right.",
         "comment": "unit in degrees",
-        "schema": "integer"
+        "schema": "string"
     },
     {
         "@type": "Telemetry",
         "name": "WheelTilt",
         "description": "Steering wheel column tilt. 0 is Lowest position. 100 isHighest position.",
         "comment": "unit in percent",
-        "schema": "integer"
+        "schema": "string"
     },
     {
         "@type": "Telemetry",
         "name": "WheelExtension",
         "description": "Steering wheel column extension from dashboard. 0 is Closest to dashboard. 100 = Furthest from dashboard.",
         "comment": "unit in percent",
-        "schema": "integer"
+        "schema": "string"
     }
     ],
     "@context": "dtmi:dtdl:context;2"

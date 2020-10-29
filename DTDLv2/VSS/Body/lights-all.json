@@ -11,11 +11,11 @@
         "comment": "actuator",
         "request": {
             "name": "IsHighBeamOn",
-            "schema": "boolean"
+            "schema": "string"
         },
         "response": {
             "name": "IsHighBeamOn",
-            "schema": "boolean"
+            "schema": "string"
         }
     },
     {
@@ -25,11 +25,11 @@
         "comment": "actuator",
         "request": {
             "name": "IsLowBeamOn",
-            "schema": "boolean"
+            "schema": "string"
         },
         "response": {
             "name": "IsLowBeamOn",
-            "schema": "boolean"
+            "schema": "string"
         }
     },
     {
@@ -39,11 +39,11 @@
         "comment": "actuator",
         "request": {
             "name": "IsRunningOn",
-            "schema": "boolean"
+            "schema": "string"
         },
         "response": {
             "name": "IsRunningOn",
-            "schema": "boolean"
+            "schema": "string"
         }
     },
     {
@@ -53,11 +53,11 @@
         "comment": "actuator",
         "request": {
             "name": "IsBackupOn",
-            "schema": "boolean"
+            "schema": "string"
         },
         "response": {
             "name": "IsBackupOn",
-            "schema": "boolean"
+            "schema": "string"
         }
     },
     {
@@ -67,11 +67,11 @@
         "comment": "actuator",
         "request": {
             "name": "IsParkingOn",
-            "schema": "boolean"
+            "schema": "string"
         },
         "response": {
             "name": "IsParkingOn",
-            "schema": "boolean"
+            "schema": "string"
         }
     },
     {
@@ -81,11 +81,11 @@
         "comment": "actuator",
         "request": {
             "name": "IsBrakeOn",
-            "schema": "boolean"
+            "schema": "string"
         },
         "response": {
             "name": "IsBrakeOn",
-            "schema": "boolean"
+            "schema": "string"
         }
     },
     {
@@ -95,11 +95,11 @@
         "comment": "actuator",
         "request": {
             "name": "IsRearFogOn",
-            "schema": "boolean"
+            "schema": "string"
         },
         "response": {
             "name": "IsRearFogOn",
-            "schema": "boolean"
+            "schema": "string"
         }
     },
     {
@@ -109,11 +109,11 @@
         "comment": "actuator",
         "request": {
             "name": "IsFrontFogOn",
-            "schema": "boolean"
+            "schema": "string"
         },
         "response": {
             "name": "IsFrontFogOn",
-            "schema": "boolean"
+            "schema": "string"
         }
     },
     {
@@ -123,11 +123,11 @@
         "comment": "actuator",
         "request": {
             "name": "IsHazardOn",
-            "schema": "boolean"
+            "schema": "string"
         },
         "response": {
             "name": "IsHazardOn",
-            "schema": "boolean"
+            "schema": "string"
         }
     },
     {
@@ -137,11 +137,11 @@
         "comment": "actuator",
         "request": {
             "name": "IsLeftIndicatorOn",
-            "schema": "boolean"
+            "schema": "string"
         },
         "response": {
             "name": "IsLeftIndicatorOn",
-            "schema": "boolean"
+            "schema": "string"
         }
     },
     {
@@ -151,11 +151,11 @@
         "comment": "actuator",
         "request": {
             "name": "IsRightIndicatorOn",
-            "schema": "boolean"
+            "schema": "string"
         },
         "response": {
             "name": "IsRightIndicatorOn",
-            "schema": "boolean"
+            "schema": "string"
         }
     }
     ],
