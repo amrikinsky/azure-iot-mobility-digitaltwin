@@ -71,84 +71,79 @@
         "@type": "Property",
         "name": "Year",
         "description": "Model year of the vehicle",
-        "schema": "string"
+        "schema": "date"
     },
     {
-        "@type": "Telemetry",
+        "@type": "Property",
+        "name": "IgnitionOn",
+        "description": "Indicates whether the vehicle ignition is on or off. sensor, boolean, true = on, false = off",
+        "schema": "boolean"
+    },
+    {
+        "@type": "Property",
         "name": "IgnitionOnTime",
-        "description": "Accumulated ignition on time in seconds",
-        "comment": "unit in seconds",
-        "schema": "string"
+        "description": "Telemetry, Accumulated ignition on time in seconds. sensor, unit in seconds",
+        "schema": "integer"
     },
     {
-        "@type": "Telemetry",
+        "@type": "Property",
         "name": "IgnitionOffTime",
-        "description": "Accumulated ignition off time in seconds",
-        "comment": "unit in seconds",
-        "schema": "string" 
+        "description": "Telemetry, Accumulated ignition off time in seconds. sensor, unit in seconds",
+        "schema": "integer" 
     },
     {
-        "@type": "Telemetry",
+        "@type": "Property",
         "name": "DriveTime",
-        "description": "Accumulated drive time in seconds",
-        "comment": "unit in seconds",
-        "schema": "string"
+        "description": "Telemetry, Accumulated drive time in seconds. sensor, unit in seconds",
+        "schema": "integer"
     },
     {
-        "@type": "Telemetry",
+        "@type": "Property",
         "name": "IdleTime",
-        "description": "Accumulated idle time in seconds",
-        "comment": "unit in seconds",
-        "schema": "string"
+        "description": "Telemetry, Accumulated idle time in seconds, sensor, unit in seconds",
+        "schema": "integer"
     },
     {
-        "@type": "Telemetry",
+        "@type": "Property",
         "name": "Speed",
-        "description": "Vehicle speed, as sensed by the gearbox",
-        "comment": "min -250, max 250, km/h",
-        "schema": "string"
+        "description": "Telemetry, Vehicle speed, as sensed by the gearbox. sensor, min -250, max 250, km/h",
+        "schema": "integer"
     },
     {
-        "@type": "Telemetry",
-        "name": "AccelerationLongitudinal",
-        "description": "Vehicle acceleration in X (longitudinal acceleration)",
-        "comment": "unit in m/s2",
-        "schema": "string"
+        "@type": "Property",
+        "name": "Acceleration_Longitudinal",
+        "description": "Telemetry, Vehicle acceleration in X (longitudinal acceleration). sensor, unit in m/s2",
+        "schema": "integer"
     },
     {
-        "@type": "Telemetry",
-        "name": "AccelerationLateral",
-        "description": "Vehicle acceleration in Y (lateral acceleration)",
-        "comment": "unit in m/s2",
-        "schema": "string" 
+        "@type": "Property",
+        "name": "Acceleration_Lateral",
+        "description": "Telemetry, Vehicle acceleration in Y (lateral acceleration). sensor, unit in m/s2",
+        "schema": "integer" 
     },
     {
-        "@type": "Telemetry",
-        "name": "AccelerationVertical",
-        "description": "Vehicle acceleration in Z (vertical acceleration)",
-        "comment": "unit in seconds",
-        "schema": "string"
+        "@type": "Property",
+        "name": "Acceleration_Vertical",
+        "description": "Telemetry, Vehicle acceleration in Z (vertical acceleration). sensor, unit in seconds",
+        "schema": "integer"
     },
     {
-        "@type": "Telemetry",
-        "name": "RotationRoll",
-        "description": "Vehicle rotation rate along X (longitudinal)",
-        "comment": "unit in degrees/s",
-        "schema": "string"
+        "@type": "Property",
+        "name": "AngularVelocity_Roll",
+        "description": "Telemetry, Vehicle rotation rate along X (longitudinal). sensor, unit in degrees/s",
+        "schema": "integer"
     },
     {
-        "@type": "Telemetry",
-        "name": "RotationPitch",
-        "description": "Vehicle Rotation in Y (Pitch Rotation)",
-        "comment": "unit in degrees/s",
-        "schema": "string" 
+        "@type": "Property",
+        "name": "AngularVelocity_Pitch",
+        "description": "Telemetry, Vehicle Rotation in Y (Pitch Rotation). sensor, unit in degrees/s",
+        "schema": "integer" 
     },
     {
-        "@type": "Telemetry",
-        "name": "RotationYaw",
-        "description": "Vehicle Rotation in Z (Yaw Rotation)",
-        "comment": "unit in degrees/s",
-        "schema": "string"
+        "@type": "Property",
+        "name": "AngularVelocity_Yaw",
+        "description": "Telemetry, Vehicle Rotation in Z (Yaw Rotation). unit in degrees/s",
+        "schema": "integer"
     }
     ],
     "@context": "dtmi:dtdl:context;2"
